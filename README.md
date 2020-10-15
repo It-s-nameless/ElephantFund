@@ -1,9 +1,13 @@
 # ElephantFund
 
 项目名称：大象基金
+
 小组名称：就叫无名
+
 小组成员：陈彬捷、王萍婷、林鸿、王云华、梁宇奇
+
 功能定位：一款多功能的一站式基金交易电商服务平台
+
 云效需求管理地址：https://devops.aliyun.com/project/5f86d01354a6bc0048c9a6c8/story/section/all
 
 ## 项目前期计划
