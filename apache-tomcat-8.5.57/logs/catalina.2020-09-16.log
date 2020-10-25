@@ -1,0 +1,129 @@
+16-Sep-2020 10:23:13.262 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æœåŠ¡å™¨ç‰ˆæœ¬: Apache Tomcat/8.5.57
+16-Sep-2020 10:23:13.368 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æœåŠ¡å™¨æ„å»º:        Jun 30 2020 21:49:10 UTC
+16-Sep-2020 10:23:13.370 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æœåŠ¡å™¨ç‰ˆæœ¬å·(:     8.5.57.0
+16-Sep-2020 10:23:13.377 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æ“ä½œç³»ç»Ÿåç§°:      Windows 10
+16-Sep-2020 10:23:13.378 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.ç‰ˆæœ¬:           10.0
+16-Sep-2020 10:23:13.388 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ„:              amd64
+16-Sep-2020 10:23:13.390 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢ƒå˜é‡:     E:\jdk1.8\jre
+16-Sep-2020 10:23:13.391 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Javaè™šæ‹Ÿæœºç‰ˆæœ¬:    1.8.0_201-b09
+16-Sep-2020 10:23:13.392 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾›åº”å•†:        Oracle Corporation
+16-Sep-2020 10:23:13.393 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 10:23:13.395 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 10:23:13.397 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Djava.util.logging.config.file=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\conf\logging.properties
+16-Sep-2020 10:23:13.409 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2020 10:23:13.410 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2020 10:23:13.412 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2020 10:23:13.413 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Dignore.endorsed.dirs=
+16-Sep-2020 10:23:13.414 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Dcatalina.base=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 10:23:13.416 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Dcatalina.home=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 10:23:13.418 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log å‘½ä»¤è¡Œå‚æ•°ï¼š-Djava.io.tmpdir=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\temp
+16-Sep-2020 10:23:13.429 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ä½¿ç”¨APRç‰ˆæœ¬[1.7.0]åŠ è½½äº†åŸºäºAPRçš„Apache Tomcatæœ¬æœºåº“[1.2.24]ã€‚
+16-Sep-2020 10:23:13.433 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRåŠŸèƒ½ï¼šIPv6[true]ã€sendfile[true]ã€accept filters[false]ã€random[true]ã€‚
+16-Sep-2020 10:23:13.447 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLé…ç½®ï¼šuseAprConnector[false]ï¼ŒuseOpenSSL[true]
+16-Sep-2020 10:23:13.473 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLæˆåŠŸåˆå§‹åŒ– [OpenSSL 1.1.1g  21 Apr 2020]
+16-Sep-2020 10:23:14.368 ä¿¡æ¯ [main] org.apache.coyote.AbstractProtocol.init åˆå§‹åŒ–åè®®å¤„ç†å™¨ ["http-nio-8080"]
+16-Sep-2020 10:23:15.280 ä¿¡æ¯ [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2020 10:23:15.310 ä¿¡æ¯ [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3525 ms
+16-Sep-2020 10:23:15.391 ä¿¡æ¯ [main] org.apache.catalina.core.StandardService.startInternal æ­£åœ¨å¯åŠ¨æœåŠ¡[Catalina]
+16-Sep-2020 10:23:15.392 ä¿¡æ¯ [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+16-Sep-2020 10:23:15.417 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\docs]
+16-Sep-2020 10:23:15.907 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\docs]çš„éƒ¨ç½²å·²åœ¨[480]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 10:23:15.910 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\examples]
+16-Sep-2020 10:23:16.337 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\examples]çš„éƒ¨ç½²å·²åœ¨[427]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 10:23:16.340 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\host-manager]
+16-Sep-2020 10:23:16.374 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\host-manager]çš„éƒ¨ç½²å·²åœ¨[34]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 10:23:16.378 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\manager]
+16-Sep-2020 10:23:16.429 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\manager]çš„éƒ¨ç½²å·²åœ¨[51]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 10:23:16.437 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ROOT]
+16-Sep-2020 10:23:16.474 ä¿¡æ¯ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ROOT]çš„éƒ¨ç½²å·²åœ¨[37]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 10:23:16.490 ä¿¡æ¯ [main] org.apache.coyote.AbstractProtocol.start å¼€å§‹åè®®å¤„ç†å¥æŸ„["http-nio-8080"]
+16-Sep-2020 10:23:16.514 ä¿¡æ¯ [main] org.apache.catalina.startup.Catalina.start Server startup in 1201 ms
+16-Sep-2020 11:08:17.564 ä¿¡æ¯ [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\æ–°å»ºæ–‡ä»¶å¤¹]
+16-Sep-2020 11:08:17.634 ä¿¡æ¯ [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\æ–°å»ºæ–‡ä»¶å¤¹]çš„éƒ¨ç½²å·²åœ¨[71]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 11:08:38.147 ä¿¡æ¯ [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy æ­£åœ¨å–æ¶ˆéƒ¨ç½²ä¸Šä¸‹æ–‡[/æ–°å»ºæ–‡ä»¶å¤¹]
+16-Sep-2020 11:08:38.302 ä¿¡æ¯ [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ex01]
+16-Sep-2020 11:08:38.324 ä¿¡æ¯ [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Webåº”ç”¨ç¨‹åºç›®å½•[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ex01]çš„éƒ¨ç½²å·²åœ¨[22]æ¯«ç§’å†…å®Œæˆ
+16-Sep-2020 14:28:49.847 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.·şÎñÆ÷°æ±¾: Apache Tomcat/8.5.57
+16-Sep-2020 14:28:49.850 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷¹¹½¨:        Jun 30 2020 21:49:10 UTC
+16-Sep-2020 14:28:49.851 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷°æ±¾ºÅ(:     8.5.57.0
+16-Sep-2020 14:28:49.851 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ²Ù×÷ÏµÍ³Ãû³Æ:      Windows 10
+16-Sep-2020 14:28:49.852 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.°æ±¾:           10.0
+16-Sep-2020 14:28:49.852 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼Ü¹¹:              amd64
+16-Sep-2020 14:28:49.852 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Java »·¾³±äÁ¿:     E:\jdk1.8\jre
+16-Sep-2020 14:28:49.852 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JavaĞéÄâ»ú°æ±¾:    1.8.0_201-b09
+16-Sep-2020 14:28:49.852 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.¹©Ó¦ÉÌ:        Oracle Corporation
+16-Sep-2020 14:28:49.852 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:28:49.853 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:28:49.853 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.util.logging.config.file=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\conf\logging.properties
+16-Sep-2020 14:28:49.853 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2020 14:28:49.853 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2020 14:28:49.853 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2020 14:28:49.854 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Dignore.endorsed.dirs=
+16-Sep-2020 14:28:49.854 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Dcatalina.base=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:28:49.854 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Dcatalina.home=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:28:49.855 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.io.tmpdir=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\temp
+16-Sep-2020 14:28:49.855 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Ê¹ÓÃAPR°æ±¾[1.7.0]¼ÓÔØÁË»ùÓÚAPRµÄApache Tomcat±¾»ú¿â[1.2.24]¡£
+16-Sep-2020 14:28:49.856 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR¹¦ÄÜ£ºIPv6[true]¡¢sendfile[true]¡¢accept filters[false]¡¢random[true]¡£
+16-Sep-2020 14:28:49.856 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLÅäÖÃ£ºuseAprConnector[false]£¬useOpenSSL[true]
+16-Sep-2020 14:28:49.864 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL³É¹¦³õÊ¼»¯ [OpenSSL 1.1.1g  21 Apr 2020]
+16-Sep-2020 14:28:50.007 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+16-Sep-2020 14:28:50.415 ĞÅÏ¢ [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2020 14:28:50.428 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.load Initialization processed in 949 ms
+16-Sep-2020 14:28:50.452 ĞÅÏ¢ [main] org.apache.catalina.core.StandardService.startInternal ÕıÔÚÆô¶¯·şÎñ[Catalina]
+16-Sep-2020 14:28:50.453 ĞÅÏ¢ [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+16-Sep-2020 14:28:50.647 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\docs]
+16-Sep-2020 14:28:50.667 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\docs]µÄ²¿ÊğÒÑÔÚ[18]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:28:50.668 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ex01]
+16-Sep-2020 14:28:50.686 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ex01]µÄ²¿ÊğÒÑÔÚ[17]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:28:50.686 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\examples]
+16-Sep-2020 14:28:50.905 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\examples]µÄ²¿ÊğÒÑÔÚ[219]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:28:50.905 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\host-manager]
+16-Sep-2020 14:28:50.925 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\host-manager]µÄ²¿ÊğÒÑÔÚ[20]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:28:50.926 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\manager]
+16-Sep-2020 14:28:50.946 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\manager]µÄ²¿ÊğÒÑÔÚ[19]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:28:50.947 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ROOT]
+16-Sep-2020 14:28:50.967 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ROOT]µÄ²¿ÊğÒÑÔÚ[21]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:28:50.970 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["http-nio-8080"]
+16-Sep-2020 14:28:50.982 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.start Server startup in 554 ms
+16-Sep-2020 14:44:33.679 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.·şÎñÆ÷°æ±¾: Apache Tomcat/8.5.57
+16-Sep-2020 14:44:33.683 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷¹¹½¨:        Jun 30 2020 21:49:10 UTC
+16-Sep-2020 14:44:33.684 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷°æ±¾ºÅ(:     8.5.57.0
+16-Sep-2020 14:44:33.685 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ²Ù×÷ÏµÍ³Ãû³Æ:      Windows 10
+16-Sep-2020 14:44:33.685 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.°æ±¾:           10.0
+16-Sep-2020 14:44:33.685 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼Ü¹¹:              amd64
+16-Sep-2020 14:44:33.686 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Java »·¾³±äÁ¿:     E:\jdk1.8\jre
+16-Sep-2020 14:44:33.686 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JavaĞéÄâ»ú°æ±¾:    1.8.0_201-b09
+16-Sep-2020 14:44:33.686 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.¹©Ó¦ÉÌ:        Oracle Corporation
+16-Sep-2020 14:44:33.686 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:44:33.687 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:44:33.687 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.util.logging.config.file=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\conf\logging.properties
+16-Sep-2020 14:44:33.688 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2020 14:44:33.689 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2020 14:44:33.689 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2020 14:44:33.690 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Dignore.endorsed.dirs=
+16-Sep-2020 14:44:33.690 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Dcatalina.base=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:44:33.690 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Dcatalina.home=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57
+16-Sep-2020 14:44:33.691 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ÃüÁîĞĞ²ÎÊı£º-Djava.io.tmpdir=E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\temp
+16-Sep-2020 14:44:33.692 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Ê¹ÓÃAPR°æ±¾[1.7.0]¼ÓÔØÁË»ùÓÚAPRµÄApache Tomcat±¾»ú¿â[1.2.24]¡£
+16-Sep-2020 14:44:33.693 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR¹¦ÄÜ£ºIPv6[true]¡¢sendfile[true]¡¢accept filters[false]¡¢random[true]¡£
+16-Sep-2020 14:44:33.697 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLÅäÖÃ£ºuseAprConnector[false]£¬useOpenSSL[true]
+16-Sep-2020 14:44:33.702 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL³É¹¦³õÊ¼»¯ [OpenSSL 1.1.1g  21 Apr 2020]
+16-Sep-2020 14:44:33.911 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+16-Sep-2020 14:44:34.481 ĞÅÏ¢ [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2020 14:44:34.497 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1400 ms
+16-Sep-2020 14:44:34.539 ĞÅÏ¢ [main] org.apache.catalina.core.StandardService.startInternal ÕıÔÚÆô¶¯·şÎñ[Catalina]
+16-Sep-2020 14:44:34.539 ĞÅÏ¢ [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+16-Sep-2020 14:44:34.847 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\docs]
+16-Sep-2020 14:44:34.870 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\docs]µÄ²¿ÊğÒÑÔÚ[20]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:44:34.870 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ex01]
+16-Sep-2020 14:44:34.892 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ex01]µÄ²¿ÊğÒÑÔÚ[22]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:44:34.892 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\examples]
+16-Sep-2020 14:44:35.232 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\examples]µÄ²¿ÊğÒÑÔÚ[340]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:44:35.232 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\host-manager]
+16-Sep-2020 14:44:35.263 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\host-manager]µÄ²¿ÊğÒÑÔÚ[31]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:44:35.264 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\manager]
+16-Sep-2020 14:44:35.285 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\manager]µÄ²¿ÊğÒÑÔÚ[21]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:44:35.287 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ROOT]
+16-Sep-2020 14:44:35.310 ĞÅÏ¢ [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory WebÓ¦ÓÃ³ÌĞòÄ¿Â¼[E:\apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webapps\ROOT]µÄ²¿ÊğÒÑÔÚ[24]ºÁÃëÄÚÍê³É
+16-Sep-2020 14:44:35.314 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["http-nio-8080"]
+16-Sep-2020 14:44:35.331 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.start Server startup in 832 ms
