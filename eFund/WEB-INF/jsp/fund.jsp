@@ -15,9 +15,9 @@
 
 	<%@ include file="nav.jsp"%>
 	
-	<%@ include file="typeInfo.jsp" %>
-	<%@ include file="typeInfo.jsp" %>
-	<%@ include file="typeInfo.jsp" %>
+	<%@ include file="typeCard.jsp" %>
+	<%@ include file="typeCard.jsp" %>
+	<%@ include file="typeCard.jsp" %>
 
 	<%@ include file="footer.jsp"%>
 </body>

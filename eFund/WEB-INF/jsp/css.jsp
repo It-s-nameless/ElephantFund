@@ -58,29 +58,47 @@
 	margin:2px 0px;
 }
 
-.rowbkgdiv{
+.paperbkgdiv{
 	height:200px;
 	background-image:url(img/fundbkg.jpg);
 	background-repeat:repeat-x;
 }
 
+.investimg {
+	margin:0 auto;
+	padding:0.5rem;
+}
+
+.cuimg{
+	margin:0 auto;
+	padding:0.5rem;
+}
+
 .paperfig{
-	margin:0px auto;
+	margin:0em auto;
 }
 
 .breadcrumb{
 	background-color: #fff;
-	margin:0px;
+	margin:0em;
 }
 
 hr{
-	margin:0px;
+	margin:0em;
 	margin-block-start: 0em;
     margin-block-end: 1.5em;
 }
 
 .fundPayTable{
 	text-align:left;
+}
+
+.card{
+	font-size:1rem;
+}
+
+.table td, .table th{
+	border-top: 0px;
 }
 </style>
     

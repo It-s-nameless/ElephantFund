@@ -14,6 +14,7 @@
 <script src="dist/echarts.min.js"></script>
 <script src="jquery-1.10.1.min.js"></script>
 <script src="map/js/china.js"></script>
+
 <style>
 * {
 	margin: 0;
@@ -40,10 +41,10 @@ html, body {
 
 	<div class="row" style="margin: 15px 0px">
 		<div class="col-sm-2"></div>
-		<%@ include file="paperInfo.jsp" %>
-		<%@ include file="paperInfo.jsp" %>
-		<%@ include file="paperInfo.jsp" %>
-		<%@ include file="paperInfo.jsp" %>
+		<%@ include file="paperCard.jsp" %>
+		<%@ include file="paperCard.jsp" %>
+		<%@ include file="paperCard.jsp" %>
+		<%@ include file="paperCard.jsp" %>
 		<div class="col-sm-2"></div>
 	</div>
 

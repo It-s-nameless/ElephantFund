@@ -15,15 +15,12 @@
 
 	<%@ include file="nav.jsp"%>
 	
-	<%@ include file="adInfo.jsp" %>
-	
-	<div class="row">
-		<div class="col-sm-2"></div>
-		<%@ include file="fbInfo.jsp" %>
-		<%@ include file="fbInfo.jsp" %>
-		<%@ include file="fbInfo.jsp" %>
-		<%@ include file="fbInfo.jsp" %>
-		<div class="col-sm-2"></div>
+	<div class="row mt-3">
+		<%@ include file="fbCard.jsp" %>
+		<%@ include file="fbCard.jsp" %>
+		<%@ include file="fbCard.jsp" %>
+		<%@ include file="fbCard.jsp" %>
+		<%@ include file="fbCard.jsp" %>
 	</div>
 
 	<%@ include file="footer.jsp"%>

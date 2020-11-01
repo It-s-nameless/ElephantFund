@@ -15,7 +15,7 @@
 
 	<%@ include file="nav.jsp"%>
 
-	<div class="row rowbkgdiv"></div>
+	<div class="row paperbkgdiv"></div>
 
 	<div class="container">
 
@@ -23,8 +23,8 @@
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				您所在位置 ：
-				<li class="breadcrumb-item"><a href="#">大象基金</a></li>
-				<li class="breadcrumb-item"><a href="index.jsp">大盘指数</a></li>
+				<li class="breadcrumb-item"><a href="Index">大象基金</a></li>
+				<li class="breadcrumb-item"><a href="Index">大盘指数</a></li>
 				<li class="breadcrumb-item active" aria-current="page">基金要闻</li>
 			</ol>
 			<hr>

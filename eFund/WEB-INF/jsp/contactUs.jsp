@@ -27,6 +27,11 @@
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="card cuimg">
+				<img src="img/cubkg.jpg" style="height:330px">
+			</div>
+		</div>
 		<!-- 正文 ，包括图片和文字 -->
 		<div class="row">
 
