@@ -23,7 +23,7 @@
 }
 
 .bigtext{
-	font-size:large;
+	font-size:1.25rem;
 }
 
 .thinth{

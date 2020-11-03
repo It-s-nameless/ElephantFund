@@ -45,6 +45,12 @@
 						<td>管 理 人： <a href="#">广发基金</a></td>
 						<td>基金等级： <span class="graytext">暂无评级</span></td>
 					</tr>
+					<tr>
+						<td colspan="3" class="text-center redtext strongtext bigtext">免费开启净值估算</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="text-center graytext">注意：净值估算是按照基金历史定期报告公布的持仓和指数走势预测当天净值，预估数值仅供参考，实际涨跌幅以基金净值为准。</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
@@ -66,9 +72,8 @@
 						<li>30 users included</li>
 						<li class="redtext strongtext">现在购入还可得基金红包</li>
 					</ul>
-					<button type="button"
-						class="btn btn-lg btn-block btn-outline-danger">Sign up
-						for free</button>
+					<a href="Index"
+						class="btn btn-lg btn-block btn-outline-danger">立即尝试</a>
 				</div>
 			</div>
 			<div class="card mb-4 shadow-sm">
@@ -87,8 +92,7 @@
 						<li>Help center access</li>
 						<li>30 users included</li>
 					</ul>
-					<button type="button" class="btn btn-lg btn-block btn-danger">Get
-						started</button>
+					<a href="#" class="btn btn-lg btn-block btn-danger">买入</a>
 				</div>
 			</div>
 			<div class="card mb-4 shadow-sm">
@@ -101,10 +105,9 @@
 					</h1>
 					<ul class="list-unstyled mt-3 mb-4">
 						<li>免费开启净值估算</li>
-						<li>注意：净值估算是按照基金历史定期报告公布的持仓和指数走势预测当天净值，预估数值仅供参考，实际涨跌幅以基金净值为准。</li>
+						<li>注意：净值估算是按照基金历史定期报告公布的持仓和指数走势预测当天净值，预估数值仅供参考，实际涨跌幅以基金净</li>
 					</ul>
-					<button type="button" class="btn btn-lg btn-block btn-danger">Contact
-						us</button>
+					<a href="#" class="btn btn-lg btn-block btn-danger">买入</a>
 				</div>
 			</div>
 		</div>
