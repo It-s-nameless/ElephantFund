@@ -19,11 +19,15 @@
 }
 
 .strongtext{
-	font-weight:bolder;
+	font-weight: bold;
 }
 
 .bigtext{
 	font-size:1.25rem;
+}
+
+.smalltext{
+	font-size:0.95rem;
 }
 
 .thinth{
@@ -100,5 +104,6 @@ hr{
 .table td, .table th{
 	border-top: 0px;
 }
+
 </style>
     
