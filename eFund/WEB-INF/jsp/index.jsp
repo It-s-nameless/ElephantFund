@@ -23,7 +23,7 @@
 
 html, body {
 	width: 100%;
-	height: 73%;
+	height: 70%;
 }
 
 #main {
@@ -39,12 +39,30 @@ html, body {
 	<div id="main"></div>
 	<%@ include file="marketIndex.jsp"%>
 
-	<div class="row" style="margin: 15px 0px">
+	<div class="row" style="margin: 15px 0px 0px 0px">
 		<div class="col-sm-2"></div>
-		<%@ include file="paperCard.jsp" %>
-		<%@ include file="paperCard.jsp" %>
-		<%@ include file="paperCard.jsp" %>
-		<%@ include file="paperCard.jsp" %>
+		<div class="col-sm">
+			<h4>基金要闻</h4>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"></div>
+
+		<%@ include file="paperCard.jsp"%>
+		<%@ include file="paperCard.jsp"%>
+		<%@ include file="paperCard.jsp"%>
+		<%@ include file="paperCard.jsp"%>
+		<div class="col-sm-2"></div>
+	</div>
+	
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm">
+			<p>
+				<span style="float: right;"><a href="#">查看更多</a></span>
+			</p>
+		</div>
 		<div class="col-sm-2"></div>
 	</div>
 
