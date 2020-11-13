@@ -8,6 +8,7 @@
 
 功能定位：一款多功能的一站式基金交易电商服务平台
 
+软件需求说明书连接：https://docs.qq.com/doc/DZkZpaGF6SWxDWmpC
 云效需求管理地址：https://devops.aliyun.com/project/5f86d01354a6bc0048c9a6c8/story/section/all
 
 ## 项目前期计划
