@@ -8,9 +8,13 @@
 
 功能定位：多功能的透明的一站式基金交易电商服务平台
 
+产品连接：http://47.115.126.217:8080/eFund/Index
+
 软件需求说明书连接：https://docs.qq.com/doc/DZkZpaGF6SWxDWmpC
 
 云效需求管理地址：https://devops.aliyun.com/project/5f86d01354a6bc0048c9a6c8/story/section/all
+
+项目成本估算：￥4430
 
 ## 项目前期计划
 ### 项目准备阶段（2020.9.23）
