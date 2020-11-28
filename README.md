@@ -102,5 +102,62 @@
 （3）对异常的订单进行处理。
 参与者：系统管理员。
 功能用例图：
+## 4. 产品的非功能性需求
+### 4.1 外部接口说明
+#### 4.1.1 用户接口
+① 用户登录
+请求参数	类型	是否必填	参数位置	说明
+Username	字符串	是	消息体	用户名
+password	字符串	是	消息体	用户名
+
+响应：登陆成功： {
+"code":200,
+"message":"登陆成功"，
+"token":"123456789"  }
+登录失败： {
+"code":403,
+"message":"登陆失败"，  }
+② 用户注册
+user_name	字符串	是	消息体	用户名
+pass_word	字符串	是	消息体	用户名
+user_tel	字符串	是	消息体	电话
+user_sex	字符串	是	消息体	用户性别
+user_birth	字符串	是	消息体	用户出生
+user_email	字符串	是	消息体	用户邮箱
+user_photo	字符串	是	消息体	用户头像
+
+响应信息 注册成功 状态码：200 { "user_name": "张三",
+"user_tel": "13697552828",
+"user_full_name": "李四",
+"user_sex": 男,
+"user_birth": "2000/1/1",
+"user_email": "123456789@qq.com",
+"user_photo": ""  } 
+注册失败 状态码：403  {
+"detail":"注册信息有误"
+}
+
+③ 买入或卖出基金
+order_code	字符串	是	消息体	订单编号
+Order_fundname	字符串	是	消息体	基金名称
+Order_number	float	是	消息体	基金份额
+Order_price	float	是	消息体	基金价格
+Order_time	date	是	消息体	买入或卖出时间
+Order_fare	float	是	消息体	买入或卖出费率
+
+响应信息 买入或卖出成功 状态码 200
+{ "order_code": "111111",
+"order_fund": "中欧医疗混合",
+"order_number": "20",
+"order_price": 50,
+"order_time": "2020/1/1",
+"order_fare": "0.02%",
+ } 
+注册失败 状态码：403  {
+"detail":"买入或卖出失败"
+}
+
+#### 4.1.2 软件接口
+用户支付时需要跳转到支付宝或微信对应的支付界面，当用户完成支付后再跳转到基金购买成功的界面。
 
 
