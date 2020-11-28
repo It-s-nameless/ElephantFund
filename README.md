@@ -118,13 +118,13 @@ password	字符串	是	消息体	用户名
 "code":403,
 "message":"登陆失败"，  }
 ② 用户注册
-user_name	字符串	是	消息体	用户名
-pass_word	字符串	是	消息体	用户名
-user_tel	字符串	是	消息体	电话
-user_sex	字符串	是	消息体	用户性别
-user_birth	字符串	是	消息体	用户出生
-user_email	字符串	是	消息体	用户邮箱
-user_photo	字符串	是	消息体	用户头像
+| user_name | 字符串 | 是 | 消息体 | 用户名 |	
+| pass_word |	字符串 |	是 |	消息体 |	用户名 |	
+|	user_tel |	字符串 |	是 |	消息体 |	电话 |	
+|	user_sex |	字符串 |	是 |	消息体 |	用户性别 |	
+|	user_birth |	字符串 |	是 |	消息体 |	用户出生 |	
+|	user_email |	字符串 |	是 |	消息体 |	用户邮箱 |	
+|	user_photo |	字符串 |	是 |	消息体 |	用户头像 |	
 
 响应信息 注册成功 状态码：200 { "user_name": "张三",
 "user_tel": "13697552828",
