@@ -112,10 +112,29 @@
 ### 4.1 外部接口说明
 #### 4.1.1 用户接口
 ① 用户登录
-
-请求参数	类型	是否必填	参数位置	说明
-Username	字符串	是	消息体	用户名
-password	字符串	是	消息体	用户名
+<table>
+ <tr>
+  <th>请求参数</th>
+  <th>类型</th>
+  <th>是否必填</th>
+  <th>参数位置</th>
+  <th>说明</th>
+ </tr>
+ <tr>
+  <th>Username</th>
+  <th>字符串</th>
+  <th>是</th>
+  <th>消息体</th>
+  <th>用户名</th>
+ </tr>
+ <tr>
+  <th>Username</th>
+  <th>字符串</th>
+  <th>是</th>
+  <th>消息体</th>
+  <th>用户名</th>
+ </tr>
+</table>
 
 响应：登陆成功： {
 "code":200,
