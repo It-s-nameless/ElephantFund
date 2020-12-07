@@ -144,13 +144,50 @@
 "code":403,
 "message":"登陆失败"，  }
 ② 用户注册
-| user_name  | 字符串 | 是 | 消息体 | 用户名 |	
-| pass_word  |	字符串 |	是 |	消息体 |	用户名 |	
-|	user_tel   |	字符串 |	是 |	消息体 |	电话 |	
-|	user_sex   |	字符串 |	是 |	消息体 |	用户性别 |	
-|	user_birth |	字符串 |	是 |	消息体 |	用户出生 |	
-|	user_email |	字符串 |	是 |	消息体 |	用户邮箱 |	
-|	user_photo |	字符串 |	是 |	消息体 |	用户头像 |	
+<table>
+ <tr>
+  <th>user_name</th>
+  <th>字符串</th>
+  <th>是</th>
+  <th>消息体</th>
+  <th>用户名</th>
+ </tr>
+ <tr>
+  <th>pass_word</th>
+  <th>字符串</th>
+  <th>是</th>
+  <th>消息体</th>
+  <th>用户名</th>
+ </tr>
+ <tr>
+   <th>user_tel</th>
+   <th>字符串</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>电话</th>
+ </tr>
+ <tr>
+   <th>user_sex</th>
+   <th>字符串</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>用户性别</th>
+ </tr>
+ <tr>
+   <th>user_email</th>
+   <th>字符串</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>用户邮箱</th> 
+ </tr>
+ <tr>
+   <th>user_photo</th>
+   <th>字符串</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>用户头像</th> 
+ </tr>
+</table>
 
 响应信息 注册成功 状态码：200 { "user_name": "张三",
 "user_tel": "13697552828",
@@ -164,12 +201,50 @@
 }
 
 ③ 买入或卖出基金
-order_code	字符串	是	消息体	订单编号
-Order_fundname	字符串	是	消息体	基金名称
-Order_number	float	是	消息体	基金份额
-Order_price	float	是	消息体	基金价格
-Order_time	date	是	消息体	买入或卖出时间
-Order_fare	float	是	消息体	买入或卖出费率
+<table>
+ <tr>
+  <th>order_code</th>
+  <th>字符串</th>
+  <th>是</th>
+  <th>消息体</th>
+  <th>订单编号</th>
+ </tr>
+ <tr>
+  <th>Order_fundname</th>
+  <th>字符串</th>
+  <th>是</th>
+  <th>消息体</th>
+  <th>基金名称</th>
+ </tr>
+ <tr>
+   <th>Order_number</th>
+   <th>float</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>基金份额</th>
+ </tr>
+ <tr>
+   <th>Order_price</th>
+   <th>float</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>基金价格</th>
+ </tr>
+ <tr>
+   <th>Order_time</th>
+   <th>date</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>买入或卖出时间</th> 
+ </tr>
+ <tr>
+   <th>Order_fare</th>
+   <th>float</th>
+   <th>是</th>
+   <th>消息体</th>
+   <th>买入或卖出费率</th> 
+ </tr>
+</table>
 
 响应信息 买入或卖出成功 状态码 200
 { "order_code": "111111",
@@ -226,10 +301,68 @@ b.数据处理运行功能：数据实时进行处理，5秒更新一次。
 c.后援和恢复操作：服务器每半小时将数据备份一次，保证在服务器崩溃后能恢复之前的数据。
 ## 5. ER图和数据字典抽取
 ### 5.1 ER图
-根据以上的分析，把在整个系统过程中出现的实体及各个实体之间的关联画成E-R图，以更好的从整体角度了解系统中所有的实体。比如：
+根据以上的分析，把在整个系统过程中出现的实体及各个实体之间的关联画成E-R图，以更好的从整体角度了解系统中所有的实体。
 ## 5.2 数据字典
 对系统中出现的各个实体的属性进行整理，形成数据字典，此可以做为后继开发过程中数据结构设计、数据库设计、数据库表结构设计的主要来源。格式如下例所示：
 #### 5.2.1 基金基本信息
+<table>
+ <tr>
+  <th>属性</th>
+  <th>约束</th>
+  <th>释义</th>
+  <th>备注</th>
+ </tr>
+ 
+ <tr>
+  <th>基金编号</th>
+  <th>必填</th>
+  <th>基金的编号，是唯一标识</th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>基金名称</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>成立日期</th>
+  <th>必填</th>
+  <th>基金成立日期</th>
+  <th>Date</th>
+ </tr>
+ 
+ <tr>
+  <th>资产规模</th>
+  <th>必填</th>
+  <th>基金的规模大小，单位亿</th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>风险类型</th>
+  <th>必填</th>
+  <th>中高风险、中低风险</th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>成立以来涨跌幅</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>日涨跌幅</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+</table>
 属性	约束	释义	备注
 基金编号	必填	基金的编号，是唯一标识	String，主键
 基金名称	必填		String
