@@ -362,56 +362,233 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
   <th>Float</th>
  </tr>
  
+ <tr>
+  <th>净值</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>基金管理人</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>基金托管人</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>基金经理</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>投资理念</th>
+  <th>必填</th>
+  <th>基金经理投资的偏好</th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>投资策略</th>
+  <th>必填</th>
+  <th>对风险的处理方法、基金分析评估等</th>
+  <th>String</th>
+ </tr>
+ 
+  <tr>
+  <th>基金产品概要</th>
+  <th>必填</th>
+  <th>基金简介</th>
+  <th>String</th>
+ </tr>
+ 
 </table>
-属性	约束	释义	备注
-基金编号	必填	基金的编号，是唯一标识	String，主键
-基金名称	必填		String
-成立日期	必填	基金成立日期	Date
-资产规模	必填	基金的规模大小，单位亿	Float
-风险类型	必填	中高风险、中低风险	String
-成立以来涨跌幅	必填		Float
-日涨跌幅	必填		Float
-净值	必填		Float
-基金管理人	必填		String
-基金托管人	必填		String
-基金经理	必填		String
-投资理念	必填	基金经理投资的偏好	String
-投资策略	必填	对风险的处理方法、基金分析评估等	String
-基金产品概要	必填	基金简介	String
 #### 5.2.3 管理员基本信息
-属性	约束	释义	备注
-管理员编号	必填	管理员的编号，是唯一标识	String，主键
-管理员名称	必填		String
-管理员密码	必填		String
-管理员权限	必填	低、中、高	String
+
+<table>
+ <tr>
+  <th>属性</th>
+  <th>约束</th>
+  <th>释义</th>
+  <th>备注</th>
+ </tr>
+ 
+ <tr>
+  <th>管理员编号</th>
+  <th>必填</th>
+  <th>管理员的编号，是唯一标识</th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>管理员名称</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>管理员密码</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>管理员权限</th>
+  <th>必填</th>
+  <th>低、中、高</th>
+  <th>String</th>
+ </tr>
+ 
+</table>
+
 #### 5.2.4 买卖基金信息
+<table>
+ <tr>
+  <th>属性</th>
+  <th>约束</th>
+  <th>释义</th>
+  <th>备注</th>
+ </tr>
+ 
+ <tr>
+  <th>订单编号</th>
+  <th>必填</th>
+  <th>订单的编号，是唯一标识</th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>基金编号</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>买入或买入</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>买入或卖出费率</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>基金名称</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>交易创立时间</th>
+  <th>必填</th>
+  <th>订单建立时间</th>
+  <th>Date</th>
+ </tr>
+ 
+ <tr>
+  <th>交易完成时间</th>
+  <th>必填</th>
+  <th>订单支付时间</th>
+  <th>Date</th>
+ </tr>
+ 
+ <tr>
+  <th>基金类型</th>
+  <th>必填</th>
+  <th>中高风险、中低风险</th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>成立以来涨跌幅</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>日涨跌幅</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>净值</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>基金管理人</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>基金托管人</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>基金经理</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>投资理念</th>
+  <th>必填</th>
+  <th>基金经理投资的偏好</th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>投资策略</th>
+  <th>必填</th>
+  <th>对风险的处理方法、基金分析评估等</th>
+  <th>String</th>
+ </tr>
+ 
+  <tr>
+  <th>基金产品概要</th>
+  <th>必填</th>
+  <th>基金简介</th>
+  <th>String</th>
+ </tr> 
+</table>
+#### 5.2.6 历史订单信息
 属性	约束	释义	备注
 订单编号	必填	订单的编号，是唯一标识	String，主键
 基金编号	必填		String
 买入或买入	必填		String
-买入或卖出费率	必填		Float
 基金名称	必填		String
 交易创立时间	必填	订单建立时间	Date
 交易完成时间	必填	订单支付时间	Date
-基金管理人	必填	中高风险、中低风险	String
-成立以来涨跌幅	必填		Float
-日涨跌幅	必填		Float
-净值	必填		Float
-基金管理人	必填		String
-基金托管人	必填		String
-基金经理	必填		String
-投资理念	必填	基金经理投资的偏好	String
-投资策略	必填	对风险的处理方法、基金分析评估等	String
-基金产品概要	必填	基金简介	String
-#### 历史订单信息
-属性	约束	释义	备注
-订单编号	必填	订单的编号，是唯一标识	String，主键
-基金编号	必填		String
-买入或买入	必填		String
-基金名称	必填		String
-交易创立时间	必填	订单建立时间	Date
-交易完成时间	必填	订单支付时间	Date
-#### 5.2.6 大盘指数信息
+#### 5.2.7 大盘指数信息
 属性	约束	释义	备注
 大盘指数类型	必填	上证指数、纳斯达克指数、道琼斯指数等	String，主键
 日期	必填		Date，主键
@@ -422,7 +599,7 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
 成交额	必填		Float
 日涨跌幅	必填		Float
 
-#### 5.2.7 用户投资偏好分析
+#### 5.2.8 用户投资偏好分析
 属性	约束	释义	备注
 用户名	必填		String
 用户编号	必填		String，主键
@@ -431,7 +608,7 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
 出生年月	必填		Date
 投资性格	必填	乐观型或悲观型等	String
 
-#### 5.2.8 兴趣基金导购
+#### 5.2.9 兴趣基金导购
 属性	约束	释义	备注
 用户编号	必填		String，主键
 基金编号	必填	基金的编号，是唯一标识	String，主键
@@ -449,7 +626,7 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
 投资策略	必填	对风险的处理方法、基金分析评估等	String
 基金产品概要	必填	基金简介	String
 推荐原因	必填	根据用户的投资偏好选取相应的推荐理由	String
-#### 5.2.9 基金自选预测
+#### 5.2.10 基金自选预测
 属性	约束	释义	备注
 基金编号	必填	基金的编号，是唯一标识	String，主键
 日期	必填		String，主键
@@ -470,7 +647,7 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
 近三年收益	必填		Float
 近五年收益	必填		Float
 成立来收益	必填		Float
-#### 5.2.10 订单异常处理
+#### 5.2.11 订单异常处理
 属性	约束	释义	备注
 订单编号	必填	订单的编号，是唯一标识	String，主键
 用户编号	必填		String，主键
@@ -484,7 +661,7 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
 处理操作	必填		String
 客服建议	选填		String
 
-#### 5.2.11 客服咨询
+#### 5.2.12 客服咨询
 属性	约束	释义	备注
 咨询编号	必填	咨询记录编号	String，主键
 用户编号	必填		String，主键
@@ -493,4 +670,3 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
 管理员名称	必填		String
 聊天记录	必填		String，多值属性
 用户评价	必填		String
-
