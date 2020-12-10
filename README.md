@@ -929,33 +929,110 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
  </tr>
  
  <tr>
+  <th>基金编号</th>
+  <th>必填</th>
+  <th>基金的编号，是唯一标识</th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>日期</th>
+  <th>必填</th>
   <th></th>
+  <th>Date，主键</th>
+ </tr> 
+ 
+ <tr>
+  <th>所属大盘指数</th>
+  <th>必填</th>
   <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>大盘指数数值</th>
+  <th>必填</th>
   <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>基金名称</th>
+  <th>必填</th>
   <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>是否购买</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>净值</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>估值</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>添加后收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+
+ <tr>
+  <th>近一周收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>近一月收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>近三月收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+
+ <tr>
+  <th>近六月收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+ 
+ <tr>
+  <th>近一年收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+
+ <tr>
+  <th>成立来收益</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
  </tr>
 </table>
-
-属性	约束	释义	备注
-基金编号	必填	基金的编号，是唯一标识	String，主键
-日期	必填		String，主键
-所属大盘指数	必填		String
-大盘指数数值	必填		Float
-基金名称	必填		String
-是否购买	必填		String
-日期	必填	数据的日期	Date
-净值	必填		Float
-估值	必填		Float
-添加后收益	必填		Float
-近一周收益	必填		Float
-近一月收益	必填		Float
-近三月收益	必填		Float
-近六月收益	必填		Float
-近一年收益	必填		Float
-近两年收益	必填		Float
-近三年收益	必填		Float
-近五年收益	必填		Float
-成立来收益	必填		Float
 
 #### 5.2.9 订单异常处理
 <table>
