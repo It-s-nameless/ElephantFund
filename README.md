@@ -1123,18 +1123,51 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
  </tr>
  
  <tr>
+  <th>咨询编号</th>
+  <th>必填</th>
+  <th>咨询记录编号</th>
+  <th>String，主键</th>
+ </tr>
+
+ <tr>
+  <th>用户编号</th>
+  <th>必填</th>
   <th></th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>用户名</th>
+  <th>必填</th>
   <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>管理员编号</th>
+  <th>必填</th>
   <th></th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>管理员名称</th>
+  <th>必填</th>
   <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>聊天记录</th>
+  <th>必填</th>
+  <th></th>
+  <th>String，多值属性</th>
+ </tr>
+ 
+ <tr>
+  <th>用户评价</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
  </tr>
 </table>
-
-属性	约束	释义	备注
-咨询编号	必填	咨询记录编号	String，主键
-用户编号	必填		String，主键
-用户名	必填		String
-管理员编号	必填		String，主键
-管理员名称	必填		String
-聊天记录	必填		String，多值属性
-用户评价	必填		String
