@@ -1093,17 +1093,35 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
  </tr>
  
  <tr>
+  <th>订单编号</th>
+  <th>必填</th>
+  <th>订单的编号，是唯一标识</th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>用户编号</th>
+  <th>必填</th>
   <th></th>
+  <th>String，主键</th>
+ </tr>
+ 
+ <tr>
+  <th>用户名</th>
+  <th>必填</th>
   <th></th>
+  <th>String</th>
+ </tr>
+
+ <tr>
   <th></th>
+  <th>必填</th>
   <th></th>
+  <th>String</th>
  </tr>
 </table>
 
 属性	约束	释义	备注
-订单编号	必填	订单的编号，是唯一标识	String，主键
-用户编号	必填		String，主键
-用户名	必填		String
 买入或买入	必填		String
 买入或卖出费率	必填		Float
 基金名称	必填		String
