@@ -1114,22 +1114,61 @@ c.后援和恢复操作：服务器每半小时将数据备份一次，保证在
  </tr>
 
  <tr>
-  <th></th>
+  <th>买入或买入</th>
   <th>必填</th>
   <th></th>
   <th>String</th>
  </tr>
-</table>
 
-属性	约束	释义	备注
-买入或买入	必填		String
-买入或卖出费率	必填		Float
-基金名称	必填		String
-交易创立时间	必填	订单建立时间	Date
-交易完成时间	必填	订单支付时间	Date
-订单异常原因	必填	支付超时等	String
-处理操作	必填		String
-客服建议	选填		String
+ <tr>
+  <th>买入或卖出费率</th>
+  <th>必填</th>
+  <th></th>
+  <th>Float</th>
+ </tr>
+
+ <tr>
+  <th>基金名称</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>交易创立时间</th>
+  <th>必填</th>
+  <th>订单建立时间</th>
+  <th>Date</th>
+ </tr>
+ 
+ <tr>
+  <th>交易完成时间</th>
+  <th>必填</th>
+  <th>订单支付时间</th>
+  <th>Date</th>
+ </tr>
+ 
+ <tr>
+  <th>订单异常原因</th>
+  <th>必填</th>
+  <th>支付超时等</th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>处理操作</th>
+  <th>必填</th>
+  <th></th>
+  <th>String</th>
+ </tr>
+ 
+ <tr>
+  <th>客服建议</th>
+  <th>选填</th>
+  <th></th>
+  <th>String</th>
+ </tr> 
+</table>
 
 #### 5.2.10 客服咨询
 <table>
