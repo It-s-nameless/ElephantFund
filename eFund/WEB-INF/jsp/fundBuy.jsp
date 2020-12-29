@@ -15,14 +15,8 @@
 
 	<%@ include file="nav.jsp"%>
 	
-	<div class="row mt-3">
-		<%@ include file="fbCard.jsp" %>
-		<%@ include file="fbCard.jsp" %>
-		<%@ include file="fbCard.jsp" %>
-		<%@ include file="fbCard.jsp" %>
-		<%@ include file="fbCard.jsp" %>
-	</div>
-
+	<%@ include file="fbCard.jsp" %>
+	
 	<%@ include file="footer.jsp"%>
 </body>
 </html>

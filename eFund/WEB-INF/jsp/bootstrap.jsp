@@ -6,4 +6,6 @@
 <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+<script src="dist/echarts.min.js"></script>
+
 <link rel="icon" href="img/elephant.png">

@@ -44,6 +44,7 @@
 
 			<div class="col-sm">
 				<div class="tab-content" id="nav-tabContent">
+					<!-- 基金基础知识 -->
 					<div class="tab-pane fade show active" id="list-home"
 						role="tabpanel" aria-labelledby="list-home-list">
 
@@ -120,9 +121,9 @@
 									class="card-link">Another link</a>
 							</div>
 						</div>
-
 					</div>
 
+					<!-- 基金类型 -->
 					<div class="tab-pane fade" id="list-profile" role="tabpanel"
 						aria-labelledby="list-profile-list">
 						<div class="card">
@@ -145,9 +146,9 @@
 								<a href="#" class="card-link">Card link</a> <a href="#"
 									class="card-link">Another link</a>
 							</div>
-						</div>
-												
+						</div>			
 					</div>
+					
 					<!-- 基金投资风险 -->
 					<div class="tab-pane fade" id="list-messages" role="tabpanel"
 						aria-labelledby="list-messages-list">
@@ -275,17 +276,21 @@
 									class="card-link">Another link</a>
 							</div>
 						</div>
-
-						
 					</div>
+					
+					<!-- 基金名词解释 -->
 					<div class="tab-pane fade" id="list-settings" role="tabpanel"
 						aria-labelledby="list-settings-list">
 						
 					</div>
+					
+					<!-- 开户相关 -->
 					<div class="tab-pane fade" id="list-kh" role="tabpanel"
 						aria-labelledby="list-kh-list">
 						
 					</div>
+					
+					<!-- 账户管理 -->
 					<div class="tab-pane fade" id="list-zhgl" role="tabpanel"
 						aria-labelledby="list-zhgl-list">
 						

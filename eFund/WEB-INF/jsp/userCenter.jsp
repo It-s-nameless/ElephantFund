@@ -14,7 +14,8 @@
 <body>
 
 	<%@ include file="nav.jsp"%>
-
+	<div class="container">
+	
 	<div class="row" style="margin: 15px 0px">
 	
 		<div class="col-sm-2"><img src="img/h.jpg"style="width:100%;"></div>
@@ -40,6 +41,7 @@
 	
 	<div class="row mt-3">
 		<%@ include file="orderCard.jsp" %>
+	</div>
 	</div>
 	<%@ include file="footer.jsp"%>
 </body>
