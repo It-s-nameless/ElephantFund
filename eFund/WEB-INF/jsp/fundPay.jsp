@@ -16,9 +16,9 @@
 	<%@ include file="nav.jsp"%>
 
 	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-		<h1 class="display-4">广东高端制造股票A</h1>
+		<h1 class="display-4">${fund.fname}</h1>
 
-		<div class="container">
+		<div class="container" style="margin-top:20px;">
 			<table class="table table-borderless fundPayTable">
 				<tbody>
 					<tr>
@@ -49,12 +49,14 @@
 									},
 									series : [ {
 										name : '单位净值',
-										data : [ 4, 3.9, 3.5, 5.2, 5.29, 6.33,
-												4.02 ],
+										data : [],
 										type : 'line'
 									} ]
 								};
-								;
+								for(let i =0;i<7;i++)
+								{
+									option.series[0].data.push((Math.random()*3+2).toFixed(2));
+								}
 								if (option && typeof option === "object") {
 									myChart.setOption(option, true);
 								}
@@ -64,8 +66,8 @@
 					<tr>
 						<td>
 							购买手续费：
-								<del>1.50%</del>
-								<span class="strongtext">0.15%</span> <span
+								<del>${fund.fbuyrate10}%</del>
+								<span class="strongtext">${fund.fbuyrate}%</span> <span
 									class="redtext strongtext">1</span>折 <a href="#">费率详情>></a>
 						</td>
 					</tr>
@@ -75,15 +77,15 @@
 					</tr>
 					
 					<tr>
-						<td>基金规模： 7.34亿元（2020-06-30）</td>
+						<td>基金规模： ${fund.frate}亿元（${date}）</td>
 					</tr>
 					
 					<tr>
-						<td>成 立 日： 2017-09-01</td>
+						<td>成 立 日： ${fund.fstart}</td>
 					</tr>
 					
 					<tr>
-						<td>管 理 人： <a href="#">广发基金</a></td>
+						<td>管 理 人： <a href="#">${fund.fmanager}</a></td>
 					</tr>
 					
 					<tr>
@@ -116,8 +118,6 @@
 					<ul class="list-unstyled mt-3 mb-4">
 						<li>新用户限时尝试</li>
 						<li>7天收益保留，亏损不陪</li>
-						<li>30 users included</li>
-						<li class="redtext strongtext">现在购入还可得基金红包</li>
 					</ul>
 					<a href="Index" class="btn btn-lg btn-block btn-outline-danger">立即尝试</a>
 				</div>
@@ -131,12 +131,10 @@
 						￥10 <small class="text-muted">起购</small>
 					</h1>
 					<ul class="list-unstyled mt-3 mb-4">
-						<li>购买手续费： <del>1.50%</del> <span class="strongtext">0.15%</span>
+						<li>购买手续费： <del>${fund.fbuyrate10}%</del> <span class="strongtext">${fund.fbuyrate}%</span>
 							<span class="redtext strongtext">1</span>折
 						</li>
-						<li>Priority email support</li>
-						<li>Help center access</li>
-						<li>30 users included</li>
+						<li class="redtext strongtext">现在购入还可得基金红包</li>
 					</ul>
 					<a href="#" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</a>
 				</div>
@@ -151,7 +149,7 @@
 					</h1>
 					<ul class="list-unstyled mt-3 mb-4">
 						<li>免费开启净值估算</li>
-						<li>注意：净值估算是按照基金历史定期报告公布的持仓和指数走势预测当天净值，预估数值仅供参考，实际涨跌幅以基金净</li>
+						<li class="redtext strongtext">现在购入还可得基金红包</li>
 					</ul>
 					<a href="#" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</a>
 				</div>

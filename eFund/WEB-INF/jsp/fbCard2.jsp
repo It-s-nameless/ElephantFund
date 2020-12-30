@@ -6,11 +6,11 @@
 			<img class="card-img-top" src="img/fund.jpg" alt="Card image cap">
 			<div class="card-body">
 				<h5 class="card-title">
-					<img src="img/money.png" style="margin: -1px 3px 3px 0px">广东高端制造股票A
+					<img src="img/money.png" style="margin: -1px 3px 3px 0px">申万菱信新能
 				</h5>
 				<p class="card-text">Some quick example text to build on the
 					card title and make up the bulk of the card's content.</p>
-				<a href="FundPay" class="btn buybtn strongtext"
+				<a href="FundPay?fname=申万菱信新能" class="btn buybtn strongtext"
 					style="float: right; color: #fff">买一点试试</a>
 			</div>
 		</div>
@@ -25,7 +25,7 @@
 				</h5>
 				<p class="card-text">Some quick example text to build on the
 					card title and make up the bulk of the card's content.</p>
-				<a href="FundPay" class="btn buybtn strongtext"
+				<a href="FundPay?fname=工银生态环境" class="btn buybtn strongtext"
 					style="float: right; color: #fff">买一点试试</a>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 				</h5>
 				<p class="card-text">Some quick example text to build on the
 					card title and make up the bulk of the card's content.</p>
-				<a href="FundPay" class="btn buybtn strongtext"
+				<a href="FundPay?fname=鹏华酒分级" class="btn buybtn strongtext"
 					style="float: right; color: #fff">买一点试试</a>
 			</div>
 		</div>

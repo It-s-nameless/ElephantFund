@@ -31,7 +31,10 @@
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="ContactUs">联系我们</a>
 				</div></li>
-			<li class="nav-item"><a class="nav-link disabled" href="#">您好，请登录</a>
+			<li class="nav-item">
+				<a class="nav-link" href="Login">
+					${user==null?"您好，请登录": user.uname}
+				</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">

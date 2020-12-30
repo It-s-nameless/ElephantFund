@@ -69,25 +69,29 @@ body {
 </head>
 <body class="text-center">
 
-	<form class="form-signin">
+	<form class="form-signin" action="LoginServlet" method="post">
 		<img class="mb-4" src="img/elephant.png"
 			alt="" width="72" height="72">
 		<h1 class="h3 mb-3 font-weight-normal">大象基金放心购</h1>
 		<label for="inputEmail" class="sr-only">用户邮箱</label> <input
-			type="email" id="inputEmail" class="form-control"
+			class="form-control" name="uname"
 			placeholder="用户名/手机号/电子邮箱" required autofocus> <label
 			for="inputPassword" class="sr-only">密码</label> <input
-			type="password" id="inputPassword" class="form-control"
+			type="password" class="form-control" name="upass"
 			placeholder="密码" required>
+		
+		<p style="color:red;font-size:small;text-align:right;">${info}</p>	
+		
 		<p style="float:right;">没有账号？<span><a href="Register">注册</a></span></p>
 		<div class="checkbox mb-3">
 			<label style="float:left;"> <input type="checkbox" value="remember-me">
 				记住我
 			</label>
-		</div>
+		</div>		
 		<button class="btn btn-lg btn-block" type="submit" style="background-color:#f2c566;">立即登录</button>
+		
 		<p class="mt-5 mb-3 text-muted">&copy; <a href="https://github.com/ZUFEcsc">GitHub</a>
-		| <a href="https://blog.csdn.net/qq_44702847">CSDN</a></p>
+		| <a href="#">管理员登陆</a></p>
 	</form>
 
 </body>

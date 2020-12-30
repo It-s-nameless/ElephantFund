@@ -91,7 +91,7 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
+									<th><a href="FundPay?fname=${item.fname}"><button class="btn btn-warning">买入</button></a>
 										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
 									</th>
 								</tr>
