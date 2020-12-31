@@ -105,7 +105,6 @@
 			alert("购买成功！");
 		}
 	</script>
-	
 	<div class="container">
 		<div class="card-deck mb-3 text-center">
 			<div class="card mb-4 shadow-sm">
@@ -114,7 +113,7 @@
 				</div>
 				<div class="card-body">
 					<h1 class="card-title pricing-card-title">
-						￥0 <small class="text-muted">/ 7天</small>
+						￥0 <small class="text-muted">/ mo</small>
 					</h1>
 					<ul class="list-unstyled mt-3 mb-4">
 						<li>新用户限时尝试</li>
@@ -128,25 +127,16 @@
 					<h4 class="my-0 font-weight-normal">立即购买</h4>
 				</div>
 				<div class="card-body">
-					<form action="AddOrderServlet" method="post">
-					
-						<input type="hidden" name="fname" value="${fund.fname}">
-						<input type="hidden" name="otype" value="买入">
-						<input type="hidden" name="uname" value="${user==null? "null" : user.uname}">
-						
-						<h1 class="card-title pricing-card-title">
-							￥<input class="form-control w-25" type="text" name="fprice" placeholder="10" value="10" style="display:inline-block;">
-							<small class="text-muted"> 起购</small>
-						</h1>
-						<ul class="list-unstyled mt-3 mb-4">
-							<li>购买手续费： <del>${fund.fbuyrate10}%</del> <span class="strongtext">${fund.fbuyrate}%</span>
-								<span class="redtext strongtext">1</span>折
-							</li>
-							<li class="redtext strongtext">现在购入还可得基金红包</li>
-						</ul>
-						<!-- <a href="#" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</a>-->
-						<button type="submit" class="btn btn-lg btn-block btn-danger">买入</button>
-					</form>
+					<h1 class="card-title pricing-card-title">
+					<table>￥10 <small class="text-muted">起购</small></table>
+					</h1>
+					<ul class="list-unstyled mt-3 mb-4">
+						<li>购买手续费： <del>${fund.fbuyrate10}%</del> <span class="strongtext">${fund.fbuyrate}%</span>
+							<span class="redtext strongtext">1</span>折
+						</li>
+						<li class="redtext strongtext">现在购入还可得基金红包</li>
+					</ul>
+					<a href="#" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</a>
 				</div>
 			</div>
 			<div class="card mb-4 shadow-sm">
@@ -154,22 +144,14 @@
 					<h4 class="my-0 font-weight-normal">定投</h4>
 				</div>
 				<div class="card-body">
-					<form action="AddOrderServlet" method="post">
-						
-						<input type="hidden" name="fname" value="${fund.fname}">
-						<input type="hidden" name="otype" value="定投">
-						<input type="hidden" name="uname" value="${user==null? "null" : user.uname}">
-						
-						<h1 class="card-title pricing-card-title">
-						￥<input class="form-control w-25" type="text" name="fprice" placeholder="100" value="100" style="display:inline-block;">
-							<small class="text-muted"> 起投</small>
-						</h1>
-						<ul class="list-unstyled mt-3 mb-4">
-							<li>免费开启净值估算</li>
-							<li class="redtext strongtext">现在购入还可得基金红包</li>
-						</ul>
-						<button type="submit" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</button>
-					</form>
+					<h1 class="card-title pricing-card-title">
+						￥100 <small class="text-muted">起投</small>
+					</h1>
+					<ul class="list-unstyled mt-3 mb-4">
+						<li>免费开启净值估算</li>
+						<li class="redtext strongtext">现在购入还可得基金红包</li>
+					</ul>
+					<a href="#" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</a>
 				</div>
 			</div>
 		</div>
