@@ -50,23 +50,23 @@
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
-								<th>单位净值|日期</th>
+								<th>单位净值 | 日期</th>
 								<th>日增长率</th>
 								<th>近1月</th>
 								<th>近3月</th>
 								<th>近6月</th>
 								<th>近年来</th>
 								<th>成立来</th>
-								<th>手续费|起购金额</th>
+								<th style="text-align: right;">手续费 | 起购金额&emsp;&emsp;</th>
 								<th>操作</th>
 							</tr>
 						</thead>
 						<tbody>
 							<c:forEach items="${funds1}" var="item" begin="1" end="5">
-								<tr>
+								<tr style="line-height: 2em;">
 									<th class="thinth">${item.fnum}</th>
-									<th class="thinth" style="text-align: left"><a href="#"
-										class="text-dark">${item.fname}</a></th>
+									<th class="thinth" style="text-align: left">
+										<a href="FundPay?fname=${item.fname}" class="text-dark">${item.fname}</a></th>
 									<th class="thinth"><span class="strongtext">${item.fval}
 									</span> | <span class="graytext">${date}</span></th>
 									<th
@@ -91,8 +91,12 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
-										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
+									<th>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">查看详情</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">买入</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">定投</a>
+										</div>
 									</th>
 								</tr>
 							</c:forEach>
@@ -130,7 +134,7 @@
 						</thead>
 						<tbody>
 							<c:forEach items="${funds2}" var="item" begin="1" end="5">
-								<tr>
+								<tr style="line-height: 2em;">
 									<th class="thinth">${item.fnum}</th>
 									<th class="thinth" style="text-align: left"><a href="#"
 										class="text-dark">${item.fname}</a></th>
@@ -158,8 +162,12 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
-										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
+									<th>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">查看详情</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">买入</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">定投</a>
+										</div>
 									</th>
 								</tr>
 							</c:forEach>
@@ -197,7 +205,7 @@
 						</thead>
 						<tbody>
 							<c:forEach items="${funds3}" var="item">
-								<tr>
+								<tr style="line-height: 2em;">
 									<th class="thinth">${item.fnum}</th>
 									<th class="thinth" style="text-align: left"><a href="#"
 										class="text-dark">${item.fname}</a></th>
@@ -225,8 +233,12 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
-										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
+									<th>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">查看详情</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">买入</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">定投</a>
+										</div>
 									</th>
 								</tr>
 							</c:forEach>
@@ -267,7 +279,7 @@
 						</thead>
 						<tbody>
 							<c:forEach items="${funds1}" var="item">
-								<tr>
+								<tr style="line-height: 2em;">
 									<th class="thinth">${item.fnum}</th>
 									<th class="thinth" style="text-align: left"><a href="#"
 										class="text-dark">${item.fname}</a></th>
@@ -295,8 +307,12 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
-										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
+									<th>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">查看详情</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">买入</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">定投</a>
+										</div>
 									</th>
 								</tr>
 							</c:forEach>
@@ -337,7 +353,7 @@
 						</thead>
 						<tbody>
 							<c:forEach items="${funds2}" var="item" begin="1" end="5">
-								<tr>
+								<tr style="line-height: 2em;">
 									<th class="thinth">${item.fnum}</th>
 									<th class="thinth" style="text-align: left"><a href="#"
 										class="text-dark">${item.fname}</a></th>
@@ -365,8 +381,12 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
-										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
+									<th>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">查看详情</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">买入</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">定投</a>
+										</div>
 									</th>
 								</tr>
 							</c:forEach>
@@ -408,7 +428,7 @@
 						</thead>
 						<tbody>
 							<c:forEach items="${funds3}" var="item">
-								<tr>
+								<tr style="line-height: 2em;">
 									<th class="thinth">${item.fnum}</th>
 									<th class="thinth" style="text-align: left"><a href="#"
 										class="text-dark">${item.fname}</a></th>
@@ -436,8 +456,12 @@
 
 									<th class="thinth"><del class="graytext">${item.fbuyrate10}%</del>
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
-									<th><a href="FundPay"><button class="btn btn-warning">买入</button></a>
-										<a href="FundPay"><button class="btn btn-warning">定投</button></a>
+									<th>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">查看详情</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">买入</a>
+											<a href="FundPay?fname=${item.fname}" class="btn btn-warning">定投</a>
+										</div>
 									</th>
 								</tr>
 							</c:forEach>

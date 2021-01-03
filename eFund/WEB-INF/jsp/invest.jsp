@@ -21,13 +21,13 @@
 		</div>
 	</div>
 	
-	<div class="container">
+	<div class="col-sm-8" style="margin: 1rem auto;">
 		<div class="row">
 		<table class="table">
 		  <tbody>
 		    <tr>
 		      <td class="w-15 strongtext" style="border-right:1px solid #dee2e6">为国内、外投资者牵线搭桥</td>
-		      <td class="graytext">相应中非发展战略，让中国企业“走出去”，让非洲企业“走进来”，抓住国家对非投资的战略机遇，引进非洲国家的投资部或投资局派机构（人员）入驻或线上入驻，开设非洲投资项目信息交流中心，为国内、外投资者牵线搭桥。</td>
+		      <td class="graytext">&emsp;&emsp;相应中非发展战略，让中国企业“走出去”，让非洲企业“走进来”，抓住国家对非投资的战略机遇，引进非洲国家的投资部或投资局派机构（人员）入驻或线上入驻，开设非洲投资项目信息交流中心，为国内、外投资者牵线搭桥。</td>
 		    </tr>
 		  </tbody>
 		</table>
@@ -46,7 +46,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<div class="card">
 				  <div class="card-header">
 					交易服务
@@ -63,7 +63,7 @@
 				</div>
 			</div>
 			
-			<div class="col-sm-8">
+			<div class="col-sm">
 				<div class="card">
 				  <div class="card-header">
 					IPO业务专栏
