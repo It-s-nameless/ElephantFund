@@ -17,9 +17,7 @@
 <body>
 
 	<%@ include file="nav.jsp"%>
-	
-	<!-- <%@ include file="fbCard2.jsp" %>  -->
-	
+	<div class="col-sm-10" style="margin: 1rem auto;">
 	<div class="row mt-3">
 		<c:forEach items="${funds}" var="item" begin="1" end="5">
 			<div class="col-sm">
@@ -57,7 +55,7 @@
 			</div>
 		</c:forEach>
 	</div>
-
+	</div>
 	<%@ include file="footer.jsp"%>
 </body>
 </html>

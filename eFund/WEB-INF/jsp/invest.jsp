@@ -21,7 +21,7 @@
 		</div>
 	</div>
 	
-	<div class="container">
+	<div class="col-sm-8" style="margin: 1rem auto;">
 		<div class="row">
 		<table class="table">
 		  <tbody>
@@ -46,7 +46,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<div class="card">
 				  <div class="card-header">
 					交易服务
@@ -63,7 +63,7 @@
 				</div>
 			</div>
 			
-			<div class="col-sm-8">
+			<div class="col-sm">
 				<div class="card">
 				  <div class="card-header">
 					IPO业务专栏

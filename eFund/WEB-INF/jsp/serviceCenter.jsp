@@ -21,25 +21,19 @@
 				<div class="list-group" id="list-tab" role="tablist">
 					<a class="list-group-item list-group-item-action active"
 						id="list-home-list" data-toggle="list" href="#list-home"
-						role="tab" aria-controls="home">基金基础知识</a> <a
-						class="list-group-item list-group-item-action"
-						id="list-profile-list" data-toggle="list" href="#list-profile"
-						role="tab" aria-controls="profile">基金类型</a> <a
-						class="list-group-item list-group-item-action"
-						id="list-messages-list" data-toggle="list" href="#list-messages"
-						role="tab" aria-controls="messages">基金投资风险</a> <a
-						class="list-group-item list-group-item-action"
-						id="list-settings-list" data-toggle="list" href="#list-settings"
-						role="tab" aria-controls="settings">基金名词解释</a> <a
-						class="list-group-item list-group-item-action" id="list-kh-list"
-						data-toggle="list" href="#list-kh" role="tab" aria-controls="kh">开户相关</a>
+						role="tab" aria-controls="home">基金基础知识</a>
 					<a class="list-group-item list-group-item-action"
-						id="list-zhgl-list" data-toggle="list" href="#list-zhgl"
-						role="tab" aria-controls="zhgl">账户管理</a>
-
+						id="list-profile-list" data-toggle="list" href="#list-profile"
+						role="tab" aria-controls="profile">基金类型</a> 
+					<a class="list-group-item list-group-item-action"
+						id="list-messages-list" data-toggle="list" href="#list-messages"
+						role="tab" aria-controls="messages">基金投资风险</a> 
+					<a class="list-group-item list-group-item-action"
+						id="list-settings-list" data-toggle="list" href="#list-settings"
+						role="tab" aria-controls="settings">基金名词解释</a> 
+					<a class="list-group-item list-group-item-action" id="list-kh-list"
+						data-toggle="list" href="#list-kh" role="tab" aria-controls="kh">开户相关</a>
 				</div>
-
-
 			</div>
 
 			<div class="col-sm">
@@ -653,15 +647,9 @@
 								<a href="#" class="card-link">Card link</a> <a href="#"
 									class="card-link">Another link</a>
 							</div>
-
-
 						</div>
-
 					</div>
 
-					<!-- 账户管理 -->
-					<div class="tab-pane fade" id="list-zhgl" role="tabpanel"
-						aria-labelledby="list-zhgl-list"></div>
 				</div>
 			</div>
 		</div>

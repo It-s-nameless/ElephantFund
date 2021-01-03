@@ -26,7 +26,7 @@
 				role="button" data-toggle="dropdown" aria-haspopup="true"
 				aria-expanded="false"> 关于 </a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="UserCenter">个人中心</a> <a
+					<a class="dropdown-item" href="${user==null?'Login': 'UserCenter'}">个人中心</a> <a
 						class="dropdown-item" href="ServiceCenter">帮助中心</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="ContactUs">联系我们</a>
