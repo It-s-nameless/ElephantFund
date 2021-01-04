@@ -32,9 +32,20 @@
 					<a class="dropdown-item" href="ContactUs">联系我们</a>
 				</div></li>
 			<li class="nav-item">
+<<<<<<< HEAD
 				<a class="nav-link" href="Login">
 					${user==null?"您好，请登录": user.uname}
 				</a>
+=======
+				<a class="nav-link" href="${user==null?'Login': 'UserCenter'}">
+					${user==null?"您好，请登录": user.uname}
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="LogoutServlet">
+					${user==null?"": "退出登录"}
+				</a>
+>>>>>>> csnb
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">

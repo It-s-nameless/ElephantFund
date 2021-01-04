@@ -41,6 +41,7 @@
 			<div class="col-sm-4">
 				<h3>账户信息</h3>
 				<ul class="list-group list-group-flush">
+<<<<<<< HEAD
 					<li class="list-group-item">账户余额 ${user.money}（元）</li>
 					<li class="list-group-item"><a href="#">历史订单</a> <a href="#">充值</a>
 						| <a href="#">提现</a></li>
@@ -48,6 +49,14 @@
 					<li class="list-group-item">根据监管部门的要求，用户根据账户的身份信息完善程度不同，享有不同的余额支付额度。
 						<span style="float:right;"><a href="#">了解更多>> </a></li></span>
 
+=======
+					<li class="list-group-item">账户余额<span style="float:right;"> ${user.money} (元)</span></li>
+					<li class="list-group-item">当前余额支付额度<span style="float:right;">20万 / 年</span></li>
+					<li class="list-group-item">&emsp;&emsp;根据监管部门的要求，用户根据账户的身份信息完善程度不同，享有不同的余额支付额度。
+						<span style="float:right;"><a href="#">了解更多>> </a></li></span>
+					<li class="list-group-item"><a href="#">历史订单</a> <span style="float:right;"> <a href="#">充值</a>
+						| <a href="#">提现</a></span></li>
+>>>>>>> csnb
 				</ul>
 			</div>
 		</div>
@@ -63,6 +72,7 @@
 								<th scope="col">金额</th>
 								<th scope="col">昨日收益</th>
 								<th scope="col">持有收益</th>
+<<<<<<< HEAD
 							</tr>
 						</thead>
 						<tbody>
@@ -73,6 +83,39 @@
 									<td>${item.uoprice}</td>
 									<td>+0.95</td>
 									<td>${item.profit}</td>
+=======
+								<th scope="col">操作</th>
+							</tr>
+						</thead>
+						<tbody>
+						<c:forEach items="${uware}" var="item" varStatus="status">
+								<tr style="line-height: 2.25em;">
+									<th scope="row">${status.index+1}</th>
+									<td><a href="FundPay?fnum=${item.fnum}">${item.fname} (${item.fnum})</a></td>
+									<td>${item.wprice}</td>
+									<td>${item.profitDay}</td>
+									<td>${item.profit}</td>
+									<td>
+										<div class="btn-group" role="group">
+											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">再买点</a>
+											<script type="text/javascript">
+												$(function () {
+												  $('.example-popover').popover({
+												    container: 'body'
+												  })
+												})
+												$(function () {
+												  $('[data-toggle="popover"]').popover()
+												})
+											</script>
+										    <a href="#" class="btn btn-outline-success" 
+										       data-toggle="popover" title="请确认金额" data-html="true" 
+										       data-content="<span>${item.wprice}<a href='AddOrderServlet?fnum=${item.fnum}&fprice=${item.wprice}&otype=0&uname=${user.uname}' class='btn btn-outline-success'>确认</a></span>">
+										      	 卖出
+										     </a>
+										</div>
+									</td>
+>>>>>>> csnb
 								</tr>
 							</c:forEach>
 						</tbody>
