@@ -15,30 +15,18 @@
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item ${nav_item == 'Index'?'active':''}"><a class="nav-link"
 				href="Index">大盘指数 <span class="sr-only">(current)</span></a></li>
-			<li class="nav-item ${nav_item == 'Fund'?'active':''}"><a class="nav-link" href="Fund">基金产品</a>
+			<li class="nav-item ${nav_item == 'AdmFund'?'active':''}"><a class="nav-link" href="#">基金管理</a>
 			</li>
-			<li class="nav-item ${nav_item == 'FundBuy'?'active':''}"><a class="nav-link" href="FundBuy">基金导购</a>
+			<li class="nav-item ${nav_item == 'AdmUser'?'active':''}"><a class="nav-link" href="#">用户管理</a>
 			</li>
-			<li class="nav-item ${nav_item == 'Invest'?'active':''}"><a class="nav-link" href="Invest">投资服务</a>
+			<li class="nav-item ${nav_item == 'AdmOrder'?'active':''}"><a class="nav-link" href="#">订单管理</a>
 			</li>
-			<li class="nav-item dropdown ${nav_item == 'About'?'active':''}"><a
-				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false"> 关于 </a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="UserCenter">个人中心</a> <a
-						class="dropdown-item" href="ServiceCenter">帮助中心</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="ContactUs">联系我们</a>
-				</div></li>
 			<li class="nav-item">
-				<a class="nav-link" href="${user==null?'Login': 'UserCenter'}">
-					${user==null?"您好，请登录": user.uname}
-				</a>
+				<a class="nav-link ${admin==null?'': 'disabled'}" href="${admin==null?'Login': '#'}">${admin==null?"您好，请登录": admin.aname}</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="LogoutServlet">
-					${user==null?"": "退出登录"}
+					${admin==null?"": "退出登录"}
 				</a>
 			</li>
 		</ul>

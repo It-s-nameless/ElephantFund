@@ -73,7 +73,7 @@
 					</tr>
 					
 					<tr>
-						<td>基金类型： <a href="#"> ${fund.ftype} </a> | ${fund.fxtype}</td>
+						<td>基金类型： <a href="#">股票型</a> | 高风险</td>
 					</tr>
 					
 					<tr>

@@ -16,7 +16,7 @@
 </head>
 <body>
 
-	<%@ include file="nav.jsp"%>
+	<%@ include file="admNav.jsp"%>
 
 	<div class="col-sm-10" style="margin: 1rem auto;">
 		<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -42,11 +42,10 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						股票型基金 <span class="graytext thinth smalltext">适合以追求资本得利和长期资本增值为投资目标的投资者。</span>
+						<span style="line-height: 2em;">股票型基金&emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
-					<table class="table table-striped ">
-						<!--设置右边框的表格-->
-						<thead>
+					<table class="table">
+						<thead class="table-light">
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
@@ -93,9 +92,9 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">买入</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">定投</a>
+											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">基金下架</a>
 										</div>
 									</th>
 								</tr>
@@ -103,7 +102,7 @@
 						</tbody>
 					</table>
 					<p class="smalltext" style="text-align: right;">
-						<a href="#">点击查询全部股票基金</a>
+						<a href="#">点击查询全部股票基金<<</a>
 					</p>
 				</div>
 				<div class="col-sm-1"></div>

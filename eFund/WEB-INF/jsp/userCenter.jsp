@@ -66,16 +66,16 @@
 							</tr>
 						</thead>
 						<tbody>
-							<c:forEach items="${uorder}" var="item" varStatus="status">
+						<c:forEach items="${uware}" var="item" varStatus="status">
 								<tr style="line-height: 2.25em;">
 									<th scope="row">${status.index+1}</th>
-									<td><a href="FundPay?fname=${item.ofname}">${item.ofname}</a>(${item.ofnum})</td>
-									<td>${item.uoprice}</td>
+									<td><a href="FundPay?fnum=${item.fnum}">${item.fname} (${item.fnum})</a></td>
+									<td>${item.wprice}</td>
 									<td>${item.profitDay}</td>
 									<td>${item.profit}</td>
 									<td>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fname=${item.ofname}" class="btn btn-outline-success">再买点</a>
+											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">再买点</a>
 											<script type="text/javascript">
 												$(function () {
 												  $('.example-popover').popover({
@@ -88,7 +88,7 @@
 											</script>
 										    <a href="#" class="btn btn-outline-success" 
 										       data-toggle="popover" title="请确认金额" data-html="true" 
-										       data-content="<span>${item.uoprice}<a href='AddOrderServlet?fname=${item.ofname}&fprice=${item.uoprice}&otype=卖出&uname=${user.uname}' class='btn btn-outline-success'>确认</a></span>">
+										       data-content="<span>${item.wprice}<a href='AddOrderServlet?fnum=${item.fnum}&fprice=${item.wprice}&otype=0&uname=${user.uname}' class='btn btn-outline-success'>确认</a></span>">
 										      	 卖出
 										     </a>
 										</div>
