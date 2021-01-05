@@ -67,7 +67,7 @@ html, body {
 					<p class="card-text">　跨年行情开启，哪些板块会成为新风口？</p>
 					<a href="FundPaper" class="btn btn-primary" style="float: right;">>>查看详情</a>
 				</div>
-				<div class="card-footer text-center">1天前</div>
+				<div class="card-footer text-center">今天</div>
 			</div>
 		</div>
 		
@@ -78,7 +78,7 @@ html, body {
 					<p class="card-text">　在流动性宽松和A股结构化行情的大背景下，二季度心肌肌市场延续了来年以来的火爆。</p>
 					<a href="FundPaper" class="btn btn-primary" style="float: right;">>>查看详情</a>
 				</div>
-				<div class="card-footer text-center">2天前</div>
+				<div class="card-footer text-center">1天前</div>
 			</div>
 		</div>
 		
@@ -89,7 +89,7 @@ html, body {
 					<p class="card-text">　分级基金，跳动13年的价格曲线今天就要画上“休止符”。</p>
 					<a href="FundPaper" class="btn btn-primary" style="float: right;">>>查看详情</a>
 				</div>
-				<div class="card-footer text-center">1天前</div>
+				<div class="card-footer text-center">2天前</div>
 			</div>
 		</div>
 		

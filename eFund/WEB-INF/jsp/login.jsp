@@ -91,7 +91,7 @@ body {
 		<button class="btn btn-lg btn-block" type="submit" style="background-color:#f2c566;">立即登录</button>
 		
 		<p class="mt-5 mb-3 text-muted">&copy; <a href="https://github.com/ZUFEcsc">GitHub</a>
-		| <a href="#">管理员登陆</a></p>
+		| <a href="AdmLogin">管理员登陆</a></p>
 	</form>
 
 </body>

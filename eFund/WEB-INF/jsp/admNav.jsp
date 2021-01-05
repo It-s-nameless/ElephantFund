@@ -14,15 +14,15 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item ${nav_item == 'Index'?'active':''}"><a class="nav-link"
-				href="Index">大盘指数 <span class="sr-only">(current)</span></a></li>
-			<li class="nav-item ${nav_item == 'AdmFund'?'active':''}"><a class="nav-link" href="#">基金管理</a>
+				href="AdmIndex">大盘指数 <span class="sr-only">(current)</span></a></li>
+			<li class="nav-item ${nav_item == 'AdmFund'?'active':''}"><a class="nav-link" href="AdmFund">基金管理</a>
 			</li>
-			<li class="nav-item ${nav_item == 'AdmUser'?'active':''}"><a class="nav-link" href="#">用户管理</a>
+			<li class="nav-item ${nav_item == 'AdmUser'?'active':''}"><a class="nav-link" href="AdmUser">用户管理</a>
 			</li>
-			<li class="nav-item ${nav_item == 'AdmOrder'?'active':''}"><a class="nav-link" href="#">订单管理</a>
+			<li class="nav-item ${nav_item == 'AdmOrder'?'active':''}"><a class="nav-link" href="AdmOrder">订单总览</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link ${admin==null?'': 'disabled'}" href="${admin==null?'Login': '#'}">${admin==null?"您好，请登录": admin.aname}</a>
+				<a class="nav-link ${admin==null?'': 'disabled'}" href="${admin==null?'AdmLogin': '#'}">${admin==null?"您好，请登录": admin.aname}</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="LogoutServlet">

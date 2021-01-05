@@ -12,7 +12,7 @@
 
 <%@ include file="css.jsp"%>
 
-<title>大象基金_基金产品</title>
+<title>大象基金_基金管理</title>
 </head>
 <body>
 
@@ -44,6 +44,12 @@
 					<h5>
 						<span style="line-height: 2em;">股票型基金&emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
+					<script>
+						function changefflagfct()
+						{
+							alert("基金状态改变成功");
+						}
+					</script>
 					<table class="table">
 						<thead class="table-light">
 							<tr>
@@ -60,6 +66,7 @@
 								<th>操作</th>
 							</tr>
 						</thead>
+						
 						<tbody>
 							<c:forEach items="${funds1}" var="item" begin="1" end="5">
 								<tr style="line-height: 2em;">
@@ -92,9 +99,12 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-outline-success">基金下架</a>
+											<a href="AdmFundInfo?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="AdmUpdateFund?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="ChangeFundFlagServlet?fnum=${item.fnum}" οnclick="changefflagfct()"class="btn btn-outline-success">
+												<c:if test="${item.fflag==0}">基金上架</c:if>
+												<c:if test="${item.fflag==1}">基金下架</c:if>
+											</a>
 										</div>
 									</th>
 								</tr>
@@ -112,11 +122,11 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						混合型基金 <span class="graytext thinth smalltext">风险低于股票基金，但高于债券基金，比较适合较为保守的投资者。</span>
+						<span style="line-height: 2em;">混合型基金&emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
-					<table class="table table-striped ">
+					<table class="table">
 						<!--设置右边框的表格-->
-						<thead>
+						<thead class="table-light">
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
@@ -163,9 +173,12 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">买入</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">定投</a>
+											<a href="AdmFundInfo?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="AdmUpdateFund?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="ChangeFundFlagServlet?fnum=${item.fnum}" οnclick="changefflagfct()"class="btn btn-outline-success">
+												<c:if test="${item.fflag==0}">基金上架</c:if>
+												<c:if test="${item.fflag==1}">基金下架</c:if>
+											</a>
 										</div>
 									</th>
 								</tr>
@@ -173,7 +186,7 @@
 						</tbody>
 					</table>
 					<p class="smalltext" style="text-align: right;">
-						<a href="#">点击查询全部混合基金</a>
+						<a href="#">点击查询全部混合基金<<</a>
 					</p>
 				</div>
 				<div class="col-sm-1"></div>
@@ -183,11 +196,11 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						债券型基金 <span class="graytext thinth smalltext">适合风险偏好适中、追求资产稳健增值以及有优化投资组合、降低整体风险需求的投资者</span>
+						<span style="line-height: 2em;">债券型基金 &emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
-					<table class="table table-striped ">
+					<table class="table">
 						<!--设置右边框的表格-->
-						<thead>
+						<thead class="table-light">
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
@@ -234,9 +247,12 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">买入</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">定投</a>
+											<a href="AdmFundInfo?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="AdmUpdateFund?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="ChangeFundFlagServlet?fnum=${item.fnum}" οnclick="changefflagfct()"class="btn btn-outline-success">
+												<c:if test="${item.fflag==0}">基金上架</c:if>
+												<c:if test="${item.fflag==1}">基金下架</c:if>
+											</a>
 										</div>
 									</th>
 								</tr>
@@ -244,7 +260,7 @@
 						</tbody>
 					</table>
 					<p class="smalltext" style="text-align: right;">
-						<a href="#">点击查询全部债券基金</a>
+						<a href="#">点击查询全部债券基金<<</a>
 					</p>
 				</div>
 				<div class="col-sm-1"></div>
@@ -257,11 +273,11 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						股票型基金 <span class="graytext thinth smalltext">适合以追求资本得利和长期资本增值为投资目标的投资者。</span>
+						<span style="line-height: 2em;">股票型基金&emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
-					<table class="table table-striped ">
+					<table class="table">
 						<!--设置右边框的表格-->
-						<thead>
+						<thead class="table-light">
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
@@ -308,9 +324,12 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">买入</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">定投</a>
+											<a href="AdmFundInfo?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="AdmUpdateFund?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="ChangeFundFlagServlet?fnum=${item.fnum}" οnclick="changefflagfct()"class="btn btn-outline-success">
+												<c:if test="${item.fflag==0}">基金上架</c:if>
+												<c:if test="${item.fflag==1}">基金下架</c:if>
+											</a>
 										</div>
 									</th>
 								</tr>
@@ -318,7 +337,7 @@
 						</tbody>
 					</table>
 					<p class="smalltext" style="text-align: right;">
-						<a href="#">点击查询全部股票基金</a>
+						<a href="#">点击查询全部股票基金<<</a>
 					</p>
 				</div>
 				<div class="col-sm-1"></div>
@@ -331,11 +350,11 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						混合型基金 <span class="graytext thinth smalltext">风险低于股票基金，但高于债券基金，比较适合较为保守的投资者。</span>
+						<span style="line-height: 2em;">混合型基金 &emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
-					<table class="table table-striped ">
+					<table class="table">
 						<!--设置右边框的表格-->
-						<thead>
+						<thead class="table-light">
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
@@ -382,9 +401,12 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">买入</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">定投</a>
+											<a href="AdmFundInfo?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="AdmUpdateFund?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="ChangeFundFlagServlet?fnum=${item.fnum}" οnclick="changefflagfct()"class="btn btn-outline-success">
+												<c:if test="${item.fflag==0}">基金上架</c:if>
+												<c:if test="${item.fflag==1}">基金下架</c:if>
+											</a>
 										</div>
 									</th>
 								</tr>
@@ -392,7 +414,7 @@
 						</tbody>
 					</table>
 					<p class="smalltext" style="text-align: right;">
-						<a href="#">点击查询全部混合基金</a>
+						<a href="#">点击查询全部混合基金<<</a>
 					</p>
 				</div>
 				<div class="col-sm-1"></div>
@@ -406,11 +428,11 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						债券型基金 <span class="graytext thinth smalltext">适合风险偏好适中、追求资产稳健增值以及有优化投资组合、降低整体风险需求的投资者</span>
+						<span style="line-height: 2em;">债券型基金&emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
 					</h5>
-					<table class="table table-striped ">
+					<table class="table">
 						<!--设置右边框的表格-->
-						<thead>
+						<thead class="table-light">
 							<tr>
 								<th>基金代码</th>
 								<th>基金名称</th>
@@ -457,9 +479,12 @@
 										${item.fbuyrate}% | ￥${item.fbuy}</th>
 									<th>
 										<div class="btn-group" role="group">
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">查看详情</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">买入</a>
-											<a href="FundPay?fnum=${item.fnum}" class="btn btn-warning">定投</a>
+											<a href="AdmFundInfo?fnum=${item.fnum}" class="btn btn-outline-success">查看详情</a>
+											<a href="AdmUpdateFund?fnum=${item.fnum}" class="btn btn-outline-success">修改信息</a>
+											<a href="ChangeFundFlagServlet?fnum=${item.fnum}" οnclick="changefflagfct()"class="btn btn-outline-success">
+												<c:if test="${item.fflag==0}">基金上架</c:if>
+												<c:if test="${item.fflag==1}">基金下架</c:if>
+											</a>
 										</div>
 									</th>
 								</tr>
@@ -467,7 +492,7 @@
 						</tbody>
 					</table>
 					<p class="smalltext" style="text-align: right;">
-						<a href="#">点击查询全部债券基金</a>
+						<a href="#">点击查询全部债券基金<<</a>
 					</p>
 				</div>
 				<div class="col-sm-1"></div>
