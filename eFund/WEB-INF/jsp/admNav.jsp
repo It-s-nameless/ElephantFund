@@ -13,8 +13,6 @@
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item ${nav_item == 'Index'?'active':''}"><a class="nav-link"
-				href="AdmIndex">大盘指数 <span class="sr-only">(current)</span></a></li>
 			<li class="nav-item ${nav_item == 'AdmFund'?'active':''}"><a class="nav-link" href="AdmFund">基金管理</a>
 			</li>
 			<li class="nav-item ${nav_item == 'AdmUser'?'active':''}"><a class="nav-link" href="AdmUser">用户管理</a>

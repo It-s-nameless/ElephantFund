@@ -28,7 +28,7 @@
 						<h5 class="card-title">
 							<img src="img/money.png" style="margin: -1px 3px 3px 0px">${item.fname}
 						</h5>
-						<p class="card-text">${item.ftext}</p>
+						<p class="card-text">&emsp;&emsp;${item.ftext}</p>
 						<a href="FundPay?fnum=${item.fnum}" class="btn buybtn strongtext"
 							style="float: right; color: #fff">买一点试试</a>
 					</div>
@@ -47,7 +47,7 @@
 						<h5 class="card-title">
 							<img src="img/money.png" style="margin: -1px 3px 3px 0px">${item.fname}
 						</h5>
-						<p class="card-text">${item.ftext}</p>
+						<p class="card-text">&emsp;&emsp;${item.ftext}</p>
 						<a href="FundPay?fnum=${item.fnum}" class="btn buybtn strongtext"
 							style="float: right; color: #fff">买一点试试</a>
 					</div>
