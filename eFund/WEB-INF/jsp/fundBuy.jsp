@@ -28,10 +28,14 @@
 						<h5 class="card-title">
 							<img src="img/money.png" style="margin: -1px 3px 3px 0px">${item.fname}
 						</h5>
+<<<<<<< HEAD
 						<p class="card-text">${item.ftext}</p>
 <<<<<<< HEAD
 						<a href="FundPay?fname=${item.fname}" class="btn buybtn strongtext"
 =======
+=======
+						<p class="card-text">&emsp;&emsp;${item.ftext}</p>
+>>>>>>> csnb
 						<a href="FundPay?fnum=${item.fnum}" class="btn buybtn strongtext"
 >>>>>>> csnb
 							style="float: right; color: #fff">买一点试试</a>
@@ -51,10 +55,14 @@
 						<h5 class="card-title">
 							<img src="img/money.png" style="margin: -1px 3px 3px 0px">${item.fname}
 						</h5>
+<<<<<<< HEAD
 						<p class="card-text">${item.ftext}</p>
 <<<<<<< HEAD
 						<a href="FundPay?fname=${item.fname}" class="btn buybtn strongtext"
 =======
+=======
+						<p class="card-text">&emsp;&emsp;${item.ftext}</p>
+>>>>>>> csnb
 						<a href="FundPay?fnum=${item.fnum}" class="btn buybtn strongtext"
 >>>>>>> csnb
 							style="float: right; color: #fff">买一点试试</a>

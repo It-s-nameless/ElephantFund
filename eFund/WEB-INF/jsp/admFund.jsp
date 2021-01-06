@@ -42,7 +42,7 @@
 				<div class="col-sm-1"></div>
 				<div class="col-sm">
 					<h5>
-						<span style="line-height: 2em;">股票型基金&emsp;</span><a class="btn btn-outline-success" href="#">新增基金</a>
+						<span style="line-height: 2em;">股票型基金&emsp;</span><a class="btn btn-outline-success" href="AdmAddFund">新增基金</a>
 					</h5>
 					<script>
 						function changefflagfct()
