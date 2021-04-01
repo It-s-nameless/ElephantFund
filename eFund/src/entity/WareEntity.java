@@ -11,6 +11,8 @@ public class WareEntity {
 	private String uname;
 	private String fnum;
 	private BigDecimal wprice;
+	int two = 2;
+	int one = 1;
 	
 	public int getWid() {
 		return wid;
@@ -91,11 +93,11 @@ public class WareEntity {
 		final double d = Math.random();
 		final int i = (int)(d*100);
 		
-		if(i%2==1){
-			sprofit="-"+bdsp.toString();
+		if(i%two != one){
+			sprofit="+"+bdsp.toString();
 		}
 		else{
-			sprofit="+"+bdsp.toString();
+			sprofit="-"+bdsp.toString();
 		}
 		
 		return sprofit;

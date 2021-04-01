@@ -119,11 +119,7 @@
 						<input type="hidden" name="otype" value="免费尝试">
 						<input type="hidden" name="uname" value="${user==null? "null" : user.uname}">
 					<h1 class="card-title pricing-card-title">
-<<<<<<< HEAD
-						￥0 <small class="text-muted">/ 7天</small>
-=======
 						￥0 (${fund.fbuy}) <small class="text-muted">/ 7天</small>
->>>>>>> csnb
 					</h1>
 					<ul class="list-unstyled mt-3 mb-4">
 						<li>新用户限时尝试</li>
@@ -140,20 +136,12 @@
 				<div class="card-body">
 					<form action="AddOrderServlet" method="post">
 					
-<<<<<<< HEAD
-						<input type="hidden" name="fname" value="${fund.fname}">
-=======
 						<input type="hidden" name="fnum" value="${fund.fnum}">
->>>>>>> csnb
 						<input type="hidden" name="otype" value="买入">
 						<input type="hidden" name="uname" value="${user==null? "null" : user.uname}">
 						
 						<h1 class="card-title pricing-card-title">
-<<<<<<< HEAD
-							￥<input class="form-control w-25" type="text" name="fprice" placeholder="10" value="10" style="display:inline-block;">
-=======
 							￥<input class="form-control w-25" type="text" name="fprice" placeholder="${fund.fbuy}" value="${fund.fbuy}" style="display:inline-block;">
->>>>>>> csnb
 							<small class="text-muted"> 起购</small>
 						</h1>
 						<ul class="list-unstyled mt-3 mb-4">
@@ -162,10 +150,6 @@
 							</li>
 							<li class="redtext strongtext">现在购入还可得基金红包</li>
 						</ul>
-<<<<<<< HEAD
-						<!-- <a href="#" class="btn btn-lg btn-block btn-danger" onclick="buyfct()">买入</a>-->
-=======
->>>>>>> csnb
 						<button type="submit" class="btn btn-lg btn-block btn-danger">买入</button>
 					</form>
 				</div>
@@ -177,20 +161,12 @@
 				<div class="card-body">
 					<form action="AddOrderServlet" method="post">
 						
-<<<<<<< HEAD
-						<input type="hidden" name="fname" value="${fund.fname}">
-=======
 						<input type="hidden" name="fnum" value="${fund.fnum}">
->>>>>>> csnb
 						<input type="hidden" name="otype" value="定投">
 						<input type="hidden" name="uname" value="${user==null? "null" : user.uname}">
 						
 						<h1 class="card-title pricing-card-title">
-<<<<<<< HEAD
-						￥<input class="form-control w-25" type="text" name="fprice" placeholder="100" value="100" style="display:inline-block;">
-=======
 						￥<input class="form-control w-25" type="text" name="fprice" placeholder="${fund.fbuy10}" value="${fund.fbuy10}" style="display:inline-block;">
->>>>>>> csnb
 							<small class="text-muted"> 起投</small>
 						</h1>
 						<ul class="list-unstyled mt-3 mb-4">
