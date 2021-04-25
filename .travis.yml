@@ -1,4 +1,10 @@
+dist: trusty
 language: java
+sudo: required
 jdk:
  - oraclejdk8
 
+matrix:
+  include:
+    - os: linux
+      compiler: java
