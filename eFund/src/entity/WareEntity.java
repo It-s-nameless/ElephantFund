@@ -65,7 +65,7 @@ public class WareEntity {
 		final double d = Math.random();
 		final int i = (int)(d*100);
 		
-		if(i%2==1){
+		if(i % 2 != 0){
 			sprofit="-"+bdsp.toString();
 		}
 		else{
