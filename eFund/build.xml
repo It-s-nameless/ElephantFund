@@ -66,6 +66,8 @@
             </fileset>
         </copy>
     </target>
+    <target name="test">
+    </target>
     <target name="clean">
         <delete dir="build/classes"/>
     </target>
