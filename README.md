@@ -18,6 +18,8 @@
 
 项目成本估算：￥4430.00
 ***
+2021年5月14日更新  *增加junit测试用例WareServiceTest.java
+
 2021年4月29日更新  *修改.travis.yml文件、增加compatibility分支作为Travis实验分支
 
 2021年4月24日更新  *增加.travis.yml文件
