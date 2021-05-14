@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="DESKTOP-PBKHLSL" id="0" name="WareServiceTest" package="jdbc" skipped="0" tests="1" time="0.258" timestamp="2021-05-14T03:15:23">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\templates" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="run.srcpath" value="src" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="ant.file.project" value="C:\课堂\软件质量保证与测试\ElephantFund\eFund\build.xml" />
+
+          <property name="sun.boot.class.path" value="C:\jre\lib\resources.jar;C:\jre\lib\rt.jar;C:\jre\lib\sunrsasign.jar;C:\jre\lib\jsse.jar;C:\jre\lib\jce.jar;C:\jre\lib\charsets.jar;C:\jre\lib\jfr.jar;C:\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9" />
+
+          <property name="java.runtime.version" value="1.8.0_241-b07" />
+
+          <property name="run.classpath" value="bin" />
+
+          <property name="test.report" value="report" />
+
+          <property name="user.name" value="张若昀的对象" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\jre\bin" />
+
+          <property name="ant.project.default-target" value="test" />
+
+          <property name="ant.project.name" value="project" />
+
+          <property name="java.version" value="1.8.0_241" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="test.xml" value="xml" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\课堂\软件质量保证与测试\ElephantFund\eFund\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="test.srcpath" value="test" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.241-b07" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\scripts" />
+
+          <property name="user.home" value="C:\Users\11515" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/jre/bin/server;C:/jre/bin;C:/jre/lib/amd64;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171\bin;;C:\jdk\bin;;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\PyCharm Community Edition 2020.3\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH&quot;;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\bin;D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Users\11515\Anaconda3;C:\Users\11515\Anaconda3\Library\mingw-w64\bin;C:\Users\11515\Anaconda3\Library\usr\bin;C:\Users\11515\Anaconda3\Library\bin;C:\Users\11515\Anaconda3\Scripts;C:\Users\11515\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\11515\AppData\Local\Programs\Python\Python37\;C:\Users\11515\AppData\Local\Microsoft\WindowsApps;C:\Users\11515\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\11515\go\bin;C:\Program Files\JetBrains\GoLand 2020.2.2\bin;C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse;;.;C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\732\0\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1620962119951 -Declipse.connect.port=1049 -Declipse.pdebuild.home=C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\. -Declipse.pdebuild.scripts=C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\scripts -Declipse.pdebuild.templates=C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\templates -Dant.home=D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\课堂\软件质量保证与测试\ElephantFund\eFund\build.xml junit init compile test" />
+
+          <property name="java.class.path" value="D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-antlr.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-bcel.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-bsf.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-log4j.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-oro.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-regexp.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-resolver.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-apache-xalan2.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-commons-logging.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-commons-net.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-imageio.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-jai.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-javamail.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-jdepend.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-jmf.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-jsch.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-junit.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-junit4.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-junitlauncher.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-launcher.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-netrexx.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-swing.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-testutil.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant-xz.jar;D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant.jar;C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\90\0\.cp\lib\antdebug.jar;C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\90\0\.cp\lib\remote.jar;C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\91\0\.cp\lib\remoteAnt.jar;C:\jdk\lib\tools.jar;C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ant.file.type.project" value="file" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\11515\Downloads\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\." />
+
+          <property name="java.io.tmpdir" value="C:\Users\11515\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\课堂\软件质量保证与测试\ElephantFund\eFund" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\11515\AppData\Local\Temp\null1480164712" />
+
+          <property name="basedir" value="C:\课堂\软件质量保证与测试\ElephantFund\eFund" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Download\apache-ant-1.10.9-bin\apache-ant-1.10.9\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="junit,init,compile,test" />
+
+      </properties>
+
+      <testcase classname="jdbc.WareServiceTest" name="testFindWareByUnameFnum1" time="0.243">
+          <error message="You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;? &amp;&amp; fnum = ?&apos; at line 1" type="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException">com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;? &amp;&amp; fnum = ?&apos; at line 1
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1365)
+	at jdbc.WareService.findWareByUnameFnum1(Unknown Source)
+	at jdbc.WareServiceTest.testFindWareByUnameFnum1(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:460)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:142)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

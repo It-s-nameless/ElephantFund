@@ -1,9 +1,13 @@
 package jdbc;
 
 import java.math.BigDecimal;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +45,7 @@ public class WareService {
 		Connection conn = getConn();
 		QueryRunner runner = new QueryRunner();
 		
+		
 		String sql = "INSERT INTO efund.warehouse (uname,fnum,wprice) VALUES (?,?,?)";
 		
 		try {
@@ -56,7 +61,7 @@ public class WareService {
 		return 0;
 	}
 
-	// 更新用户仓库
+	// 鏇存柊鐢ㄦ埛浠撳簱
 	public static void updatePrice(String uname,String fnum, BigDecimal price) {
 		Connection conn = getConn();
 		QueryRunner runner = new QueryRunner();
@@ -72,7 +77,7 @@ public class WareService {
 		}
 	}
 	
-	//查找用户所持有的基金
+	//鏌ユ壘鐢ㄦ埛鎵�鎸佹湁鐨勫熀閲�
 	public static List<WareEntity> getUserWare(String uname)
 	{
 		Connection conn = getConn();
@@ -95,7 +100,7 @@ public class WareService {
 		return wares;
 	}
 	
-	//查找仓库记录
+	//鏌ユ壘浠撳簱璁板綍
 	public static WareEntity findWareByUnameFnum(String uname,String fnum)
 	{
 		Connection conn = getConn();
@@ -124,7 +129,23 @@ public class WareService {
 		return ware;
 	}
 	
-	//删除用户仓库记录
+	//鏌ユ壘浠撳簱璁板綍
+		public static int findWareByUnameFnum1(String uname,String fnum) throws SQLException
+		{
+			Connection conn = getConn();
+			Statement st = conn.createStatement();
+			String sql = "SELECT wprice FROM warehouse WHERE uname = '"+uname+"' && fnum = '"+fnum+"'";
+			ResultSet rs=st.executeQuery(sql);
+			BigDecimal wprice = null;
+			if(rs.next()) {
+				wprice = rs.getBigDecimal("wprice");
+				System.out.println(wprice);
+			}
+			int wprice1 = new BigDecimal("200").intValue();
+			return wprice1;
+			
+		}
+	//鍒犻櫎鐢ㄦ埛浠撳簱璁板綍
 //	DELETE FROM warehouse WHERE uname='cs' && fnum='519729'
 	public static void deleteWare(String uname,String fnum) {
 		Connection conn = getConn();

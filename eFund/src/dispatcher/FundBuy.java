@@ -24,7 +24,7 @@ public class FundBuy extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		// ªÒ»°session
+
 		HttpSession session = request.getSession();
 		List<FundEntity> funds = FundService.geAlltFunds();
 		

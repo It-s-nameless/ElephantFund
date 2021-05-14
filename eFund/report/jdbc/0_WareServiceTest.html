@@ -1,0 +1,228 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: jdbc.WareServiceTest</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['jdbc.WareServiceTest'] = new Array();
+    
+        cur['ant.core.lib'] = 'D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'C:\\课堂\\软件质量保证与测试\\ElephantFund\\eFund\\build.xml';
+    
+        cur['ant.file.project'] = 'C:\\课堂\\软件质量保证与测试\\ElephantFund\\eFund\\build.xml';
+    
+        cur['ant.file.type.project'] = 'file';
+    
+        cur['ant.home'] = 'D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = 'D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'junit,init,compile,test';
+    
+        cur['ant.project.name'] = 'project';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.9 compiled on September 27 2020';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['basedir'] = 'C:\\课堂\\软件质量保证与测试\\ElephantFund\\eFund';
+    
+        cur['eclipse.pdebuild.home'] = 'C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.pde.build_3.10.600.v20191011-0535\\.';
+    
+        cur['eclipse.pdebuild.scripts'] = 'C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.pde.build_3.10.600.v20191011-0535\\scripts';
+    
+        cur['eclipse.pdebuild.templates'] = 'C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.pde.build_3.10.600.v20191011-0535\\templates';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-antlr.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-bcel.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-bsf.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-log4j.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-oro.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-regexp.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-resolver.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-apache-xalan2.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-commons-logging.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-commons-net.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-imageio.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-jai.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-javamail.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-jdepend.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-jmf.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-jsch.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-junit.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-junit4.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-junitlauncher.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-launcher.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-netrexx.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-swing.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-testutil.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant-xz.jar;D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\lib\\ant.jar;C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\configuration\\org.eclipse.osgi\\90\\0\\.cp\\lib\\antdebug.jar;C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\configuration\\org.eclipse.osgi\\90\\0\\.cp\\lib\\remote.jar;C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\configuration\\org.eclipse.osgi\\91\\0\\.cp\\lib\\remoteAnt.jar;C:\\jdk\\lib\\tools.jar;C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\jre\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\11515\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:/jre/bin/server;C:/jre/bin;C:/jre/lib/amd64;C:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1\\libnvvp;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_171\\bin;C:\\Program Files\\Java\\jdk1.8.0_171\\jre\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk1.8.0_171\\bin;;C:\\jdk\\bin;;C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\bin;C:\\Program Files\\Git\\cmd;C:\\Go\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.0\\extras\\CUPTI\\libx64;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2019.4.0\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;D:\\PyCharm Community Edition 2020.3\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH";D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9\\bin;D:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Users\\11515\\Anaconda3;C:\\Users\\11515\\Anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\11515\\Anaconda3\\Library\\usr\\bin;C:\\Users\\11515\\Anaconda3\\Library\\bin;C:\\Users\\11515\\Anaconda3\\Scripts;C:\\Users\\11515\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\11515\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\11515\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\11515\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\11515\\go\\bin;C:\\Program Files\\JetBrains\\GoLand 2020.2.2\\bin;C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse;;.;C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\configuration\\org.eclipse.osgi\\732\\0\\.cp';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_241-b07';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_241';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.241-b07';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\r\n';
+    
+        cur['org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0'] = 'C:\\Users\\11515\\AppData\\Local\\Temp\\null1480164712';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['run.classpath'] = 'bin';
+    
+        cur['run.srcpath'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\jre\\lib\\resources.jar;C:\\jre\\lib\\rt.jar;C:\\jre\\lib\\sunrsasign.jar;C:\\jre\\lib\\jsse.jar;C:\\jre\\lib\\jce.jar;C:\\jre\\lib\\charsets.jar;C:\\jre\\lib\\jfr.jar;C:\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1620962119951 -Declipse.connect.port=1049 -Declipse.pdebuild.home=C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.pde.build_3.10.600.v20191011-0535\\. -Declipse.pdebuild.scripts=C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.pde.build_3.10.600.v20191011-0535\\scripts -Declipse.pdebuild.templates=C:\\Users\\11515\\Downloads\\eclipse-jee-2019-12-R-win32-x86_64\\eclipse\\plugins\\org.eclipse.pde.build_3.10.600.v20191011-0535\\templates -Dant.home=D:\\Download\\apache-ant-1.10.9-bin\\apache-ant-1.10.9 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\\课堂\\软件质量保证与测试\\ElephantFund\\eFund\\build.xml junit init compile test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'GBK';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['test.report'] = 'report';
+    
+        cur['test.srcpath'] = 'test';
+    
+        cur['test.xml'] = 'xml';
+    
+        cur['user.country'] = 'CN';
+    
+        cur['user.dir'] = 'C:\\课堂\\软件质量保证与测试\\ElephantFund\\eFund';
+    
+        cur['user.home'] = 'C:\\Users\\11515';
+    
+        cur['user.language'] = 'zh';
+    
+        cur['user.name'] = '张若昀的对象';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="https://www.junit.org/">JUnit</a> and <a href="https://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class jdbc.WareServiceTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a title="Display all tests" href="0_WareServiceTest.html">WareServiceTest</a></td><td><a title="Display all tests" href="0_WareServiceTest.html">1</a></td><td><a title="Display only errors" href="0_WareServiceTest-errors.html">1</a></td><td>0</td><td>0</td><td>0.258</td><td>2021-05-14T03:15:23</td><td>DESKTOP-PBKHLSL</td>
+</tr>
+</table>
+<h2>Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a name="testFindWareByUnameFnum1"></a>testFindWareByUnameFnum1</td><td>Error</td><td>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? &amp;&amp; fnum = ?' at line 1<br>
+<br>
+<code>com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? &amp;&amp; fnum = ?' at line 1<br>	at java.lang.reflect.Constructor.newInstance(Unknown Source)<br>	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)<br>	at com.mysql.jdbc.Util.getInstance(Util.java:408)<br>	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)<br>	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)<br>	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)<br>	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)<br>	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)<br>	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)<br>	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)<br>	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1365)<br>	at jdbc.WareService.findWareByUnameFnum1(Unknown Source)<br>	at jdbc.WareServiceTest.testFindWareByUnameFnum1(Unknown Source)<br>	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)<br>	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:460)<br>	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:142)<br>
+</code></td><td>0.243</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('jdbc.WareServiceTest');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>

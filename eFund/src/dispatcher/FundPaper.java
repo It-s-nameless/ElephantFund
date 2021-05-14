@@ -20,7 +20,7 @@ public class FundPaper extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		// ªÒ»°session
+
 		HttpSession session = request.getSession();
 
 		RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/fundPaper.jsp");
